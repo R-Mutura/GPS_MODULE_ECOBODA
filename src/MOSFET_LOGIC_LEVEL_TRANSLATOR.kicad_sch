@@ -1,0 +1,2537 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 423471ac-0f6b-4cad-b2ad-9ca39bfb7234)
+
+  (paper "A4")
+
+  (lib_symbols
+    (symbol "Device:Q_NMOS_GSD" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "Q" (at 5.08 1.27 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "Q_NMOS_GSD" (at 5.08 -1.27 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "" (at 5.08 2.54 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "transistor NMOS N-MOS N-MOSFET" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "N-MOSFET transistor, gate/source/drain" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Q_NMOS_GSD_0_1"
+        (polyline
+          (pts
+            (xy 0.254 0)
+            (xy -2.54 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.254 1.905)
+            (xy 0.254 -1.905)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.762 -1.27)
+            (xy 0.762 -2.286)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.762 0.508)
+            (xy 0.762 -0.508)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.762 2.286)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 2.54)
+            (xy 2.54 1.778)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 -2.54)
+            (xy 2.54 0)
+            (xy 0.762 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.762 -1.778)
+            (xy 3.302 -1.778)
+            (xy 3.302 1.778)
+            (xy 0.762 1.778)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.016 0)
+            (xy 2.032 0.381)
+            (xy 2.032 -0.381)
+            (xy 1.016 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+        (polyline
+          (pts
+            (xy 2.794 0.508)
+            (xy 2.921 0.381)
+            (xy 3.683 0.381)
+            (xy 3.81 0.254)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 3.302 0.381)
+            (xy 2.921 -0.254)
+            (xy 3.683 -0.254)
+            (xy 3.302 0.381)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (circle (center 1.651 0) (radius 2.794)
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (circle (center 2.54 -1.778) (radius 0.254)
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+        (circle (center 2.54 1.778) (radius 0.254)
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+      )
+      (symbol "Q_NMOS_GSD_1_1"
+        (pin input line (at -5.08 0 0) (length 2.54)
+          (name "G" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 2.54 -5.08 90) (length 2.54)
+          (name "S" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 2.54 5.08 270) (length 2.54)
+          (name "D" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Device:R_US" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "R" (at 2.54 0 90)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "R_US" (at -2.54 0 90)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 1.016 -0.254 90)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "R res resistor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Resistor, US symbol" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "R_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "R_US_0_1"
+        (polyline
+          (pts
+            (xy 0 -2.286)
+            (xy 0 -2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.286)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 -0.762)
+            (xy 1.016 -1.143)
+            (xy 0 -1.524)
+            (xy -1.016 -1.905)
+            (xy 0 -2.286)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0.762)
+            (xy 1.016 0.381)
+            (xy 0 0)
+            (xy -1.016 -0.381)
+            (xy 0 -0.762)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.286)
+            (xy 1.016 1.905)
+            (xy 0 1.524)
+            (xy -1.016 1.143)
+            (xy 0 0.762)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "R_US_1_1"
+        (pin passive line (at 0 3.81 270) (length 1.27)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -3.81 90) (length 1.27)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+  )
+
+  (junction (at 226.06 119.38) (diameter 0) (color 0 0 0 0)
+    (uuid 10211b1f-18dd-429e-8eee-a39fa73cf7f4)
+  )
+  (junction (at 190.5 101.6) (diameter 0) (color 0 0 0 0)
+    (uuid 20b8bc58-1a73-4de7-9540-4f842fd3a788)
+  )
+  (junction (at 73.66 109.22) (diameter 0) (color 0 0 0 0)
+    (uuid 25cc9534-9deb-492e-b43e-0a8c3819ca71)
+  )
+  (junction (at 190.5 73.66) (diameter 0) (color 0 0 0 0)
+    (uuid 27d9b44f-eda7-4c1b-982f-eef75a7cba6f)
+  )
+  (junction (at 72.39 144.78) (diameter 0) (color 0 0 0 0)
+    (uuid 30e03ec4-a707-4b2b-8318-e86d617b5cb1)
+  )
+  (junction (at 107.95 144.78) (diameter 0) (color 0 0 0 0)
+    (uuid 394c8f9f-ea7b-42d2-ad32-434da9590283)
+  )
+  (junction (at 190.5 119.38) (diameter 0) (color 0 0 0 0)
+    (uuid 4664b048-8463-4c10-a2b0-f681053d9cba)
+  )
+  (junction (at 73.66 50.165) (diameter 0) (color 0 0 0 0)
+    (uuid 511adf58-02aa-46f9-b119-88d6bd199f30)
+  )
+  (junction (at 73.66 91.44) (diameter 0) (color 0 0 0 0)
+    (uuid 6c659ff9-2b3b-4661-9656-85e49af9e4d3)
+  )
+  (junction (at 226.06 73.66) (diameter 0) (color 0 0 0 0)
+    (uuid 709f1363-859b-4dbe-8e61-0f731bb69ada)
+  )
+  (junction (at 109.22 109.22) (diameter 0) (color 0 0 0 0)
+    (uuid 8124263c-2f9a-45ec-bf99-212f23fbcf40)
+  )
+  (junction (at 109.22 67.945) (diameter 0) (color 0 0 0 0)
+    (uuid 90249a91-f855-4ec1-a12b-496ae4186f26)
+  )
+  (junction (at 73.66 67.945) (diameter 0) (color 0 0 0 0)
+    (uuid e46e6349-18f5-4081-a649-a7a106e1b056)
+  )
+  (junction (at 190.5 55.88) (diameter 0) (color 0 0 0 0)
+    (uuid f66cef4c-d635-4ce8-80c1-e9efcf9ff066)
+  )
+  (junction (at 72.39 127) (diameter 0) (color 0 0 0 0)
+    (uuid fa245725-ea6d-4024-8b95-b904e50c7f4e)
+  )
+
+  (wire (pts (xy 173.99 73.66) (xy 190.5 73.66))
+    (stroke (width 0) (type default))
+    (uuid 0614c4a6-7470-4998-a8a6-feed25284a64)
+  )
+  (wire (pts (xy 226.06 119.38) (xy 250.19 119.38))
+    (stroke (width 0) (type default))
+    (uuid 063f4c64-5253-424b-ad35-c325f8b0b3d9)
+  )
+  (wire (pts (xy 116.84 127) (xy 107.95 127))
+    (stroke (width 0) (type default))
+    (uuid 08a0b937-8e4f-463e-ac4f-5efeff97a6b6)
+  )
+  (wire (pts (xy 88.9 50.165) (xy 88.9 60.325))
+    (stroke (width 0) (type default))
+    (uuid 08d0d249-c69f-4979-a977-9cc433af7657)
+  )
+  (wire (pts (xy 190.5 107.95) (xy 190.5 101.6))
+    (stroke (width 0) (type default))
+    (uuid 134f3aca-3d72-4a9b-ab54-a3f38b664f6d)
+  )
+  (wire (pts (xy 186.69 101.6) (xy 190.5 101.6))
+    (stroke (width 0) (type default))
+    (uuid 1646b626-d37f-4c28-9999-f4f1457681a6)
+  )
+  (wire (pts (xy 190.5 101.6) (xy 205.74 101.6))
+    (stroke (width 0) (type default))
+    (uuid 1b76708f-bc23-4420-bd38-adec72d4e4a2)
+  )
+  (wire (pts (xy 190.5 62.23) (xy 190.5 55.88))
+    (stroke (width 0) (type default))
+    (uuid 20ccb0aa-78cb-4838-80db-17df3dbf8764)
+  )
+  (wire (pts (xy 73.66 109.22) (xy 83.82 109.22))
+    (stroke (width 0) (type default))
+    (uuid 2137bd34-4220-487c-a43b-5555ce2a3cb5)
+  )
+  (wire (pts (xy 87.63 127) (xy 87.63 137.16))
+    (stroke (width 0) (type default))
+    (uuid 2733cc19-318f-4055-826e-f239bcea5a88)
+  )
+  (wire (pts (xy 190.5 115.57) (xy 190.5 119.38))
+    (stroke (width 0) (type default))
+    (uuid 2de20510-6bd6-4de2-9ce6-891faa2b94bc)
+  )
+  (wire (pts (xy 93.98 67.945) (xy 109.22 67.945))
+    (stroke (width 0) (type default))
+    (uuid 30789071-2277-4b69-841f-0d2941b80150)
+  )
+  (wire (pts (xy 72.39 127) (xy 87.63 127))
+    (stroke (width 0) (type default))
+    (uuid 35eadcfa-71d6-4bb4-9132-b3aeb11c3b11)
+  )
+  (wire (pts (xy 72.39 133.35) (xy 72.39 127))
+    (stroke (width 0) (type default))
+    (uuid 36f7649f-e052-4a8e-a437-b1c67b6ed1f5)
+  )
+  (wire (pts (xy 109.22 50.165) (xy 109.22 56.515))
+    (stroke (width 0) (type default))
+    (uuid 37af1a5d-446d-40c9-ba4a-535ab6d14b1a)
+  )
+  (wire (pts (xy 226.06 115.57) (xy 226.06 119.38))
+    (stroke (width 0) (type default))
+    (uuid 3d951f2d-1d13-425a-a42f-bbf3de2ac0c2)
+  )
+  (wire (pts (xy 72.39 140.97) (xy 72.39 144.78))
+    (stroke (width 0) (type default))
+    (uuid 3f3c5e08-1abd-4729-9d00-5f4a108e950f)
+  )
+  (wire (pts (xy 107.95 127) (xy 107.95 133.35))
+    (stroke (width 0) (type default))
+    (uuid 4425f374-cb6e-4bf7-b54a-41bca2974ee5)
+  )
+  (wire (pts (xy 234.95 55.88) (xy 226.06 55.88))
+    (stroke (width 0) (type default))
+    (uuid 44950509-2fde-4d3e-b88a-2e59b12ea64d)
+  )
+  (wire (pts (xy 69.85 50.165) (xy 73.66 50.165))
+    (stroke (width 0) (type default))
+    (uuid 44e45661-8c53-47e2-8301-1a914cea715d)
+  )
+  (wire (pts (xy 72.39 144.78) (xy 82.55 144.78))
+    (stroke (width 0) (type default))
+    (uuid 4a9c8d1f-79fd-450c-8447-cd90a5389e7e)
+  )
+  (wire (pts (xy 73.66 97.79) (xy 73.66 91.44))
+    (stroke (width 0) (type default))
+    (uuid 4afd40ec-cd5f-42bc-8776-561b43eacbd4)
+  )
+  (wire (pts (xy 157.48 73.66) (xy 166.37 73.66))
+    (stroke (width 0) (type default))
+    (uuid 4c383625-8d89-4dbf-abc7-34574bddcb18)
+  )
+  (wire (pts (xy 73.66 67.945) (xy 83.82 67.945))
+    (stroke (width 0) (type default))
+    (uuid 53d7a820-239a-4dab-8f56-8d1cf0386147)
+  )
+  (wire (pts (xy 226.06 55.88) (xy 226.06 62.23))
+    (stroke (width 0) (type default))
+    (uuid 564ebf44-b6ce-400c-b3fa-059f9c07fde0)
+  )
+  (wire (pts (xy 40.64 109.22) (xy 49.53 109.22))
+    (stroke (width 0) (type default))
+    (uuid 5771ecfd-9185-4079-a51d-328ed53618b5)
+  )
+  (wire (pts (xy 93.98 109.22) (xy 109.22 109.22))
+    (stroke (width 0) (type default))
+    (uuid 619b9e54-663b-4ae5-879d-d7270f0b8073)
+  )
+  (wire (pts (xy 157.48 119.38) (xy 166.37 119.38))
+    (stroke (width 0) (type default))
+    (uuid 6715762a-2366-4288-a0ba-ff1dc9ba4538)
+  )
+  (wire (pts (xy 69.85 91.44) (xy 73.66 91.44))
+    (stroke (width 0) (type default))
+    (uuid 6811c4fb-379d-4783-94bf-c76dbd5bf9b2)
+  )
+  (wire (pts (xy 92.71 144.78) (xy 107.95 144.78))
+    (stroke (width 0) (type default))
+    (uuid 6c650911-e88a-4155-a75b-14ad57b5774d)
+  )
+  (wire (pts (xy 109.22 91.44) (xy 109.22 97.79))
+    (stroke (width 0) (type default))
+    (uuid 703402f4-94f8-4f9f-ac6a-55cd067aa5b8)
+  )
+  (wire (pts (xy 190.5 119.38) (xy 200.66 119.38))
+    (stroke (width 0) (type default))
+    (uuid 73393c36-fff0-4c0e-aaac-dcd002d607dc)
+  )
+  (wire (pts (xy 186.69 55.88) (xy 190.5 55.88))
+    (stroke (width 0) (type default))
+    (uuid 7adddfcc-835a-4f57-a6d2-81ae03a77b2b)
+  )
+  (wire (pts (xy 57.15 67.945) (xy 73.66 67.945))
+    (stroke (width 0) (type default))
+    (uuid 7de107ad-43d1-4e59-a425-ecf9710f803b)
+  )
+  (wire (pts (xy 205.74 101.6) (xy 205.74 111.76))
+    (stroke (width 0) (type default))
+    (uuid 7e5358f4-271d-437b-8803-5c574b751039)
+  )
+  (wire (pts (xy 107.95 144.78) (xy 132.08 144.78))
+    (stroke (width 0) (type default))
+    (uuid 7f0a44e1-7d5a-41d1-879e-486cfac30503)
+  )
+  (wire (pts (xy 226.06 69.85) (xy 226.06 73.66))
+    (stroke (width 0) (type default))
+    (uuid 812339e8-6f0a-456e-a57f-e0608a46717c)
+  )
+  (wire (pts (xy 68.58 127) (xy 72.39 127))
+    (stroke (width 0) (type default))
+    (uuid 840b573a-1108-46b3-ae2f-b0257d0af38f)
+  )
+  (wire (pts (xy 73.66 56.515) (xy 73.66 50.165))
+    (stroke (width 0) (type default))
+    (uuid 8881f148-166d-415c-8f3b-170d595c15b2)
+  )
+  (wire (pts (xy 39.37 144.78) (xy 48.26 144.78))
+    (stroke (width 0) (type default))
+    (uuid 90956245-f305-449f-8c90-ada4eb600e71)
+  )
+  (wire (pts (xy 234.95 101.6) (xy 226.06 101.6))
+    (stroke (width 0) (type default))
+    (uuid 9967e59c-d903-4336-8a6b-aac6503e6ece)
+  )
+  (wire (pts (xy 210.82 73.66) (xy 226.06 73.66))
+    (stroke (width 0) (type default))
+    (uuid 9e060130-c4c6-4387-939a-b69768c96db4)
+  )
+  (wire (pts (xy 226.06 73.66) (xy 250.19 73.66))
+    (stroke (width 0) (type default))
+    (uuid 9f10e91d-6509-4994-8cbd-6925acf0981a)
+  )
+  (wire (pts (xy 205.74 55.88) (xy 205.74 66.04))
+    (stroke (width 0) (type default))
+    (uuid a1713233-e241-4d67-a671-cd523013efb8)
+  )
+  (wire (pts (xy 210.82 119.38) (xy 226.06 119.38))
+    (stroke (width 0) (type default))
+    (uuid a4a0b45b-46d4-4eca-89c7-baffb1a7e414)
+  )
+  (wire (pts (xy 118.11 91.44) (xy 109.22 91.44))
+    (stroke (width 0) (type default))
+    (uuid a8feb338-6020-4180-803c-bfb2b93e440a)
+  )
+  (wire (pts (xy 190.5 73.66) (xy 200.66 73.66))
+    (stroke (width 0) (type default))
+    (uuid aff2823e-ac3a-44a3-a487-22adb17b573b)
+  )
+  (wire (pts (xy 73.66 91.44) (xy 88.9 91.44))
+    (stroke (width 0) (type default))
+    (uuid b30b65a0-dad2-48da-986a-403cb388876c)
+  )
+  (wire (pts (xy 118.11 50.165) (xy 109.22 50.165))
+    (stroke (width 0) (type default))
+    (uuid b35cda62-f96b-4ca3-bee5-0b87d018f0bd)
+  )
+  (wire (pts (xy 109.22 109.22) (xy 133.35 109.22))
+    (stroke (width 0) (type default))
+    (uuid b446decb-6cb1-4d32-96c1-7db7a6fe30db)
+  )
+  (wire (pts (xy 73.66 50.165) (xy 88.9 50.165))
+    (stroke (width 0) (type default))
+    (uuid b9379130-4fbc-4b05-983a-9d3c584269f5)
+  )
+  (wire (pts (xy 173.99 119.38) (xy 190.5 119.38))
+    (stroke (width 0) (type default))
+    (uuid bde09f1c-7df2-4ddd-9534-2da660d71a27)
+  )
+  (wire (pts (xy 109.22 67.945) (xy 133.35 67.945))
+    (stroke (width 0) (type default))
+    (uuid beb10176-2916-43c9-af07-602193d0fd29)
+  )
+  (wire (pts (xy 40.64 67.945) (xy 49.53 67.945))
+    (stroke (width 0) (type default))
+    (uuid c53f2f85-f095-4123-8271-9e75914b960c)
+  )
+  (wire (pts (xy 107.95 140.97) (xy 107.95 144.78))
+    (stroke (width 0) (type default))
+    (uuid ca37ea07-13fa-40ab-87e6-2c8eaeb34f74)
+  )
+  (wire (pts (xy 55.88 144.78) (xy 72.39 144.78))
+    (stroke (width 0) (type default))
+    (uuid d8922b2e-f3e3-4299-bba6-334f65c391a9)
+  )
+  (wire (pts (xy 88.9 91.44) (xy 88.9 101.6))
+    (stroke (width 0) (type default))
+    (uuid dd8b67c9-9d72-4712-91f4-63fdfda882eb)
+  )
+  (wire (pts (xy 190.5 55.88) (xy 205.74 55.88))
+    (stroke (width 0) (type default))
+    (uuid e1a23709-86c7-4c65-9ffd-871de6865393)
+  )
+  (wire (pts (xy 109.22 64.135) (xy 109.22 67.945))
+    (stroke (width 0) (type default))
+    (uuid ea01a7b0-0b48-4d25-8eaa-a4b2bb9531e5)
+  )
+  (wire (pts (xy 73.66 64.135) (xy 73.66 67.945))
+    (stroke (width 0) (type default))
+    (uuid ed1147a3-03b3-4a63-b0df-d318081af61e)
+  )
+  (wire (pts (xy 226.06 101.6) (xy 226.06 107.95))
+    (stroke (width 0) (type default))
+    (uuid ee7a2b70-7a12-4322-a411-f251cefd4ae4)
+  )
+  (wire (pts (xy 109.22 105.41) (xy 109.22 109.22))
+    (stroke (width 0) (type default))
+    (uuid f0cb5e92-9a86-4398-b1d2-b5b38e6a150b)
+  )
+  (wire (pts (xy 57.15 109.22) (xy 73.66 109.22))
+    (stroke (width 0) (type default))
+    (uuid f78c1e50-0020-4676-8d48-f019c060aa94)
+  )
+  (wire (pts (xy 73.66 105.41) (xy 73.66 109.22))
+    (stroke (width 0) (type default))
+    (uuid fc3df232-3a1d-477b-a286-84d5f99838e8)
+  )
+  (wire (pts (xy 190.5 69.85) (xy 190.5 73.66))
+    (stroke (width 0) (type default))
+    (uuid fd016294-b83a-4380-bf1d-9cadaac7cb16)
+  )
+
+  (text "BI-DIRECTIONAL LEVEL TRANSLATOR \nMOSFET - IMPLEMENTATION"
+    (at 90.17 33.02 0)
+    (effects (font (face "Algerian") (size 5 5) bold) (justify left bottom))
+    (uuid 54db4889-40c1-4835-b164-b07cc21473d6)
+  )
+
+  (hierarchical_label "LOW_SIDE_SIM_RXD_LOGIC" (shape bidirectional) (at 39.37 144.78 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 08d12103-34eb-4f98-989e-6a271a8c0c50)
+  )
+  (hierarchical_label "HIGH_SIDE_POWER_LEVEL" (shape bidirectional) (at 234.95 101.6 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 17b86bb0-f936-48ee-a6e6-6547d40f9b21)
+  )
+  (hierarchical_label "HIGH_SIDE_SIM_RXD_LOGIC" (shape bidirectional) (at 132.08 144.78 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 22003242-4da0-4850-839f-a08d08d884e3)
+  )
+  (hierarchical_label "HIGH_SIDE_SIM_TXD_LOGIC" (shape bidirectional) (at 133.35 109.22 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 2618a225-36d2-41a8-8786-31ab91338cdb)
+  )
+  (hierarchical_label "HIGH_SIDE_GPS_RXD_LOGIC" (shape bidirectional) (at 250.19 73.66 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 39f8b85c-7534-4445-87c3-ade83830b497)
+  )
+  (hierarchical_label "LOW_SIDE_GPS_RXD_LOGIC" (shape bidirectional) (at 157.48 73.66 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 3bd0d104-6bb4-4c08-9121-6e161f2879a2)
+  )
+  (hierarchical_label "LOW_SIDE_GPS_TXD_LOGIC" (shape bidirectional) (at 157.48 119.38 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 4372caa1-c8aa-48ba-a4ed-92fa1809cec3)
+  )
+  (hierarchical_label "LOW_SIDE_SIM_TXD_LOGIC" (shape bidirectional) (at 40.64 109.22 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 5173d36c-1c5d-42a3-b597-ef014ece8f35)
+  )
+  (hierarchical_label "HIGH_SIDE_GPS_TXD_LOGIC" (shape bidirectional) (at 250.19 119.38 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 62666a76-1713-4256-aea6-290075aa4f7f)
+  )
+  (hierarchical_label "LOW_SIDE_SIM_DTR_LOGIC" (shape bidirectional) (at 40.64 67.945 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 646e61dc-115c-4c95-b22a-f2cb4dd1bced)
+  )
+  (hierarchical_label "LOW_SIDE_POWER_LEVEL" (shape bidirectional) (at 68.58 127 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 6c0e039e-0265-4cee-b67f-af4b00a174fb)
+  )
+  (hierarchical_label "HIGH_SIDE_POWER_LEVEL" (shape bidirectional) (at 118.11 50.165 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 9473012a-53cc-4910-a60c-1e473c10b2d7)
+  )
+  (hierarchical_label "LOW_SIDE_POWER_LEVEL" (shape bidirectional) (at 69.85 91.44 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid a3601246-8bc6-4a55-bae7-d1065a8a11c0)
+  )
+  (hierarchical_label "LOW_SIDE_POWER_LEVEL" (shape bidirectional) (at 69.85 50.165 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid b1a4b315-43b1-42b2-93e7-1a1401a1211b)
+  )
+  (hierarchical_label "HIGH_SIDE_POWER_LEVEL" (shape bidirectional) (at 234.95 55.88 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid d9aceb37-b44a-47a2-89fd-14ea39f8382b)
+  )
+  (hierarchical_label "LOW_SIDE_POWER_LEVEL" (shape bidirectional) (at 186.69 101.6 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid dc847f4e-ff2f-460f-bf02-ba69899fd4ee)
+  )
+  (hierarchical_label "LOW_SIDE_POWER_LEVEL" (shape bidirectional) (at 186.69 55.88 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid e90d11b8-cf51-4c30-95f9-2818676c63b9)
+  )
+  (hierarchical_label "HIGH_SIDE_POWER_LEVEL" (shape bidirectional) (at 116.84 127 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid ec3555d6-e308-4a54-965e-e1ef2bf8cdb1)
+  )
+  (hierarchical_label "HIGH_SIDE_POWER_LEVEL" (shape bidirectional) (at 118.11 91.44 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid eed9f41f-b93f-4bcc-bc62-c62657f4a22d)
+  )
+  (hierarchical_label "HIGH_SIDE_SIM_DTR_LOGIC" (shape bidirectional) (at 133.35 67.945 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid ff2307ff-f425-4db7-a254-7c94d66d8414)
+  )
+
+  (symbol (lib_id "Device:R_US") (at 170.18 119.38 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 0663b8db-7599-422a-af65-8adec6193f6f)
+    (property "Reference" "R16" (at 170.18 114.935 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "1K" (at 170.18 117.475 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 170.434 118.364 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 170.18 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3d414754-1727-44d4-b42b-0027b7d30e5a))
+    (pin "2" (uuid 12c2f10a-d283-41cb-8c06-263e8db4f03d))
+    (instances
+      (project "soilpal_v2_display"
+        (path "/0f8c6740-d040-4ce5-9b68-f1b365682d4f/882dd2d8-3941-4c8a-8503-e0fde4fea083/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R16") (unit 1)
+        )
+        (path "/0f8c6740-d040-4ce5-9b68-f1b365682d4f/882dd2d8-3941-4c8a-8503-e0fde4fea083/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R16") (unit 1)
+        )
+      )
+      (project "SmartCaravan"
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/4b192ea4-b50c-4f29-914a-cb19b995dc6c"
+          (reference "R16") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/67648d4e-4082-43b9-a0d1-7155e8bb1efd"
+          (reference "R18") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/ba1df6c2-c1e6-44ae-8b3d-dd996450ce77"
+          (reference "R20") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/b4baabbf-1ea4-440a-9d55-ec64ff5e04c5"
+          (reference "R22") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/7c63ae45-86df-4e05-bfa9-a69699819595"
+          (reference "R24") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/e935d23e-356e-4ed7-923e-4ff3e9d1207b"
+          (reference "R26") (unit 1)
+        )
+      )
+      (project "GSM_GPRS_MODULE_SIM7000G"
+        (path "/7b5c61bb-3beb-4d85-afc0-546a503e9b5f/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R16") (unit 1)
+        )
+        (path "/7b5c61bb-3beb-4d85-afc0-546a503e9b5f/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R16") (unit 1)
+        )
+      )
+      (project "GSM_module_v3"
+        (path "/8cb1db64-3fcc-4fb6-aa5a-7b4a50bb28df/341bfb02-419a-4358-97bd-e3e3f41a7556/05be99d3-7148-4ecf-8ad5-8c21ea4c2124"
+          (reference "R41") (unit 1)
+        )
+      )
+      (project "BIM_PCB"
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/9c83602d-c851-4def-afb0-48963dca7404"
+          (reference "R51") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/16769502-6cd7-4d90-ac70-b9f1d3d3fa47"
+          (reference "R54") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/eba1f2a4-2c5d-4822-a4ed-1865479f0f6b"
+          (reference "R57") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/57f051e4-1bb9-4052-b3bd-86c08fdbfa1f"
+          (reference "R48") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/ad201ec8-e911-4cc6-b434-19a9fff4949b"
+          (reference "R35") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/d71116eb-94f5-4d19-8fe2-1d5d56dfd59e"
+          (reference "R45") (unit 1)
+        )
+      )
+      (project "BI_DIRECTIONAL_LOGIC_LEVEL_TRANSLATOR_MOSFET-use"
+        (path "/d5ed9ea7-1d20-4cba-b955-75adcb1b4a20"
+          (reference "R16") (unit 1)
+        )
+      )
+      (project "ELIESTER_V2"
+        (path "/efe55700-0211-4481-aa01-7a7eb74def17/414f1577-4ce3-43d7-bbf4-7827eef840c4/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R76") (unit 1)
+        )
+        (path "/efe55700-0211-4481-aa01-7a7eb74def17/414f1577-4ce3-43d7-bbf4-7827eef840c4/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R69") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_US") (at 52.07 144.78 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 1b521b0e-4e10-4f99-a032-2acb4a1254a8)
+    (property "Reference" "R16" (at 52.07 140.335 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "1K" (at 52.07 142.875 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 52.324 143.764 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 52.07 144.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3eaf77d2-3a92-45d3-b60f-7e618aea1f33))
+    (pin "2" (uuid 82ec63d4-d537-49f0-9ea3-addf347b450b))
+    (instances
+      (project "soilpal_v2_display"
+        (path "/0f8c6740-d040-4ce5-9b68-f1b365682d4f/882dd2d8-3941-4c8a-8503-e0fde4fea083/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R16") (unit 1)
+        )
+        (path "/0f8c6740-d040-4ce5-9b68-f1b365682d4f/882dd2d8-3941-4c8a-8503-e0fde4fea083/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R16") (unit 1)
+        )
+      )
+      (project "SmartCaravan"
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/4b192ea4-b50c-4f29-914a-cb19b995dc6c"
+          (reference "R16") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/67648d4e-4082-43b9-a0d1-7155e8bb1efd"
+          (reference "R18") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/ba1df6c2-c1e6-44ae-8b3d-dd996450ce77"
+          (reference "R20") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/b4baabbf-1ea4-440a-9d55-ec64ff5e04c5"
+          (reference "R22") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/7c63ae45-86df-4e05-bfa9-a69699819595"
+          (reference "R24") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/e935d23e-356e-4ed7-923e-4ff3e9d1207b"
+          (reference "R26") (unit 1)
+        )
+      )
+      (project "GSM_GPRS_MODULE_SIM7000G"
+        (path "/7b5c61bb-3beb-4d85-afc0-546a503e9b5f/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R16") (unit 1)
+        )
+        (path "/7b5c61bb-3beb-4d85-afc0-546a503e9b5f/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R16") (unit 1)
+        )
+      )
+      (project "GSM_module_v3"
+        (path "/8cb1db64-3fcc-4fb6-aa5a-7b4a50bb28df/341bfb02-419a-4358-97bd-e3e3f41a7556/05be99d3-7148-4ecf-8ad5-8c21ea4c2124"
+          (reference "R29") (unit 1)
+        )
+      )
+      (project "BIM_PCB"
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/9c83602d-c851-4def-afb0-48963dca7404"
+          (reference "R51") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/16769502-6cd7-4d90-ac70-b9f1d3d3fa47"
+          (reference "R54") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/eba1f2a4-2c5d-4822-a4ed-1865479f0f6b"
+          (reference "R57") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/57f051e4-1bb9-4052-b3bd-86c08fdbfa1f"
+          (reference "R48") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/ad201ec8-e911-4cc6-b434-19a9fff4949b"
+          (reference "R35") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/d71116eb-94f5-4d19-8fe2-1d5d56dfd59e"
+          (reference "R45") (unit 1)
+        )
+      )
+      (project "BI_DIRECTIONAL_LOGIC_LEVEL_TRANSLATOR_MOSFET-use"
+        (path "/d5ed9ea7-1d20-4cba-b955-75adcb1b4a20"
+          (reference "R16") (unit 1)
+        )
+      )
+      (project "ELIESTER_V2"
+        (path "/efe55700-0211-4481-aa01-7a7eb74def17/414f1577-4ce3-43d7-bbf4-7827eef840c4/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R76") (unit 1)
+        )
+        (path "/efe55700-0211-4481-aa01-7a7eb74def17/414f1577-4ce3-43d7-bbf4-7827eef840c4/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R69") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_US") (at 190.5 111.76 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 200fb1fc-fe0f-48b1-a73e-eba5eb7e46ae)
+    (property "Reference" "R16" (at 192.405 111.125 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10K" (at 192.405 113.665 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 191.516 112.014 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 190.5 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b76d2042-9c1c-477b-adff-91ba7718bb70))
+    (pin "2" (uuid 40e1c359-145a-4a2a-b410-ed6c1c98bb5d))
+    (instances
+      (project "soilpal_v2_display"
+        (path "/0f8c6740-d040-4ce5-9b68-f1b365682d4f/882dd2d8-3941-4c8a-8503-e0fde4fea083/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R16") (unit 1)
+        )
+        (path "/0f8c6740-d040-4ce5-9b68-f1b365682d4f/882dd2d8-3941-4c8a-8503-e0fde4fea083/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R16") (unit 1)
+        )
+      )
+      (project "SmartCaravan"
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/4b192ea4-b50c-4f29-914a-cb19b995dc6c"
+          (reference "R16") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/67648d4e-4082-43b9-a0d1-7155e8bb1efd"
+          (reference "R18") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/ba1df6c2-c1e6-44ae-8b3d-dd996450ce77"
+          (reference "R20") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/b4baabbf-1ea4-440a-9d55-ec64ff5e04c5"
+          (reference "R22") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/7c63ae45-86df-4e05-bfa9-a69699819595"
+          (reference "R24") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/e935d23e-356e-4ed7-923e-4ff3e9d1207b"
+          (reference "R26") (unit 1)
+        )
+      )
+      (project "GSM_GPRS_MODULE_SIM7000G"
+        (path "/7b5c61bb-3beb-4d85-afc0-546a503e9b5f/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R16") (unit 1)
+        )
+        (path "/7b5c61bb-3beb-4d85-afc0-546a503e9b5f/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R16") (unit 1)
+        )
+      )
+      (project "GSM_module_v3"
+        (path "/8cb1db64-3fcc-4fb6-aa5a-7b4a50bb28df/341bfb02-419a-4358-97bd-e3e3f41a7556/05be99d3-7148-4ecf-8ad5-8c21ea4c2124"
+          (reference "R43") (unit 1)
+        )
+      )
+      (project "BIM_PCB"
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/9c83602d-c851-4def-afb0-48963dca7404"
+          (reference "R49") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/16769502-6cd7-4d90-ac70-b9f1d3d3fa47"
+          (reference "R52") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/eba1f2a4-2c5d-4822-a4ed-1865479f0f6b"
+          (reference "R55") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/57f051e4-1bb9-4052-b3bd-86c08fdbfa1f"
+          (reference "R46") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/ad201ec8-e911-4cc6-b434-19a9fff4949b"
+          (reference "R33") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/d71116eb-94f5-4d19-8fe2-1d5d56dfd59e"
+          (reference "R36") (unit 1)
+        )
+      )
+      (project "BI_DIRECTIONAL_LOGIC_LEVEL_TRANSLATOR_MOSFET-use"
+        (path "/d5ed9ea7-1d20-4cba-b955-75adcb1b4a20"
+          (reference "R16") (unit 1)
+        )
+      )
+      (project "ELIESTER_V2"
+        (path "/efe55700-0211-4481-aa01-7a7eb74def17/414f1577-4ce3-43d7-bbf4-7827eef840c4/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R74") (unit 1)
+        )
+        (path "/efe55700-0211-4481-aa01-7a7eb74def17/414f1577-4ce3-43d7-bbf4-7827eef840c4/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R67") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_US") (at 109.22 60.325 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 416155b0-6590-4fef-b6ae-a62787616c2e)
+    (property "Reference" "R17" (at 111.125 59.69 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10K" (at 111.125 62.23 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 110.236 60.579 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 109.22 60.325 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 02120823-a15b-4bc8-a8f3-6e4ced37b79c))
+    (pin "2" (uuid 795113c4-0373-4fe6-92f4-4eae930b5686))
+    (instances
+      (project "soilpal_v2_display"
+        (path "/0f8c6740-d040-4ce5-9b68-f1b365682d4f/882dd2d8-3941-4c8a-8503-e0fde4fea083/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R17") (unit 1)
+        )
+        (path "/0f8c6740-d040-4ce5-9b68-f1b365682d4f/882dd2d8-3941-4c8a-8503-e0fde4fea083/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R17") (unit 1)
+        )
+      )
+      (project "SmartCaravan"
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/4b192ea4-b50c-4f29-914a-cb19b995dc6c"
+          (reference "R17") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/67648d4e-4082-43b9-a0d1-7155e8bb1efd"
+          (reference "R19") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/ba1df6c2-c1e6-44ae-8b3d-dd996450ce77"
+          (reference "R21") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/b4baabbf-1ea4-440a-9d55-ec64ff5e04c5"
+          (reference "R23") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/7c63ae45-86df-4e05-bfa9-a69699819595"
+          (reference "R25") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/e935d23e-356e-4ed7-923e-4ff3e9d1207b"
+          (reference "R27") (unit 1)
+        )
+      )
+      (project "GSM_GPRS_MODULE_SIM7000G"
+        (path "/7b5c61bb-3beb-4d85-afc0-546a503e9b5f/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R17") (unit 1)
+        )
+        (path "/7b5c61bb-3beb-4d85-afc0-546a503e9b5f/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R17") (unit 1)
+        )
+      )
+      (project "GSM_module_v3"
+        (path "/8cb1db64-3fcc-4fb6-aa5a-7b4a50bb28df/341bfb02-419a-4358-97bd-e3e3f41a7556/05be99d3-7148-4ecf-8ad5-8c21ea4c2124"
+          (reference "R38") (unit 1)
+        )
+      )
+      (project "BIM_PCB"
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/9c83602d-c851-4def-afb0-48963dca7404"
+          (reference "R50") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/16769502-6cd7-4d90-ac70-b9f1d3d3fa47"
+          (reference "R53") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/eba1f2a4-2c5d-4822-a4ed-1865479f0f6b"
+          (reference "R56") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/57f051e4-1bb9-4052-b3bd-86c08fdbfa1f"
+          (reference "R47") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/ad201ec8-e911-4cc6-b434-19a9fff4949b"
+          (reference "R34") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/d71116eb-94f5-4d19-8fe2-1d5d56dfd59e"
+          (reference "R40") (unit 1)
+        )
+      )
+      (project "BI_DIRECTIONAL_LOGIC_LEVEL_TRANSLATOR_MOSFET-use"
+        (path "/d5ed9ea7-1d20-4cba-b955-75adcb1b4a20"
+          (reference "R17") (unit 1)
+        )
+      )
+      (project "ELIESTER_V2"
+        (path "/efe55700-0211-4481-aa01-7a7eb74def17/414f1577-4ce3-43d7-bbf4-7827eef840c4/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R75") (unit 1)
+        )
+        (path "/efe55700-0211-4481-aa01-7a7eb74def17/414f1577-4ce3-43d7-bbf4-7827eef840c4/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R68") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_US") (at 73.66 101.6 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 4e1d1c20-e78c-4798-b512-0b8771fea337)
+    (property "Reference" "R16" (at 75.565 100.965 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10K" (at 75.565 103.505 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 74.676 101.854 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 73.66 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid bcdbd3e5-7564-473f-b26e-183674132c82))
+    (pin "2" (uuid 08b65add-f59f-4028-9388-bd128eb8ae59))
+    (instances
+      (project "soilpal_v2_display"
+        (path "/0f8c6740-d040-4ce5-9b68-f1b365682d4f/882dd2d8-3941-4c8a-8503-e0fde4fea083/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R16") (unit 1)
+        )
+        (path "/0f8c6740-d040-4ce5-9b68-f1b365682d4f/882dd2d8-3941-4c8a-8503-e0fde4fea083/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R16") (unit 1)
+        )
+      )
+      (project "SmartCaravan"
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/4b192ea4-b50c-4f29-914a-cb19b995dc6c"
+          (reference "R16") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/67648d4e-4082-43b9-a0d1-7155e8bb1efd"
+          (reference "R18") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/ba1df6c2-c1e6-44ae-8b3d-dd996450ce77"
+          (reference "R20") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/b4baabbf-1ea4-440a-9d55-ec64ff5e04c5"
+          (reference "R22") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/7c63ae45-86df-4e05-bfa9-a69699819595"
+          (reference "R24") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/e935d23e-356e-4ed7-923e-4ff3e9d1207b"
+          (reference "R26") (unit 1)
+        )
+      )
+      (project "GSM_GPRS_MODULE_SIM7000G"
+        (path "/7b5c61bb-3beb-4d85-afc0-546a503e9b5f/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R16") (unit 1)
+        )
+        (path "/7b5c61bb-3beb-4d85-afc0-546a503e9b5f/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R16") (unit 1)
+        )
+      )
+      (project "GSM_module_v3"
+        (path "/8cb1db64-3fcc-4fb6-aa5a-7b4a50bb28df/341bfb02-419a-4358-97bd-e3e3f41a7556/05be99d3-7148-4ecf-8ad5-8c21ea4c2124"
+          (reference "R35") (unit 1)
+        )
+      )
+      (project "BIM_PCB"
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/9c83602d-c851-4def-afb0-48963dca7404"
+          (reference "R49") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/16769502-6cd7-4d90-ac70-b9f1d3d3fa47"
+          (reference "R52") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/eba1f2a4-2c5d-4822-a4ed-1865479f0f6b"
+          (reference "R55") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/57f051e4-1bb9-4052-b3bd-86c08fdbfa1f"
+          (reference "R46") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/ad201ec8-e911-4cc6-b434-19a9fff4949b"
+          (reference "R33") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/d71116eb-94f5-4d19-8fe2-1d5d56dfd59e"
+          (reference "R36") (unit 1)
+        )
+      )
+      (project "BI_DIRECTIONAL_LOGIC_LEVEL_TRANSLATOR_MOSFET-use"
+        (path "/d5ed9ea7-1d20-4cba-b955-75adcb1b4a20"
+          (reference "R16") (unit 1)
+        )
+      )
+      (project "ELIESTER_V2"
+        (path "/efe55700-0211-4481-aa01-7a7eb74def17/414f1577-4ce3-43d7-bbf4-7827eef840c4/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R74") (unit 1)
+        )
+        (path "/efe55700-0211-4481-aa01-7a7eb74def17/414f1577-4ce3-43d7-bbf4-7827eef840c4/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R67") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:Q_NMOS_GSD") (at 205.74 71.12 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 5dc8bdec-a161-48ac-8c13-abff8bb4f02e)
+    (property "Reference" "Q2" (at 205.74 78.105 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "2N7002" (at 205.74 80.645 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 208.28 76.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 205.74 71.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e31402cd-5cc4-47ff-9705-4386a36a6fb4))
+    (pin "2" (uuid 91819945-09e5-4e5b-9e3d-88372a2f1590))
+    (pin "3" (uuid bf03329e-2cc0-4882-822f-ca4c31c4aa80))
+    (instances
+      (project "soilpal_v2_display"
+        (path "/0f8c6740-d040-4ce5-9b68-f1b365682d4f/882dd2d8-3941-4c8a-8503-e0fde4fea083/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "Q2") (unit 1)
+        )
+        (path "/0f8c6740-d040-4ce5-9b68-f1b365682d4f/882dd2d8-3941-4c8a-8503-e0fde4fea083/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "Q2") (unit 1)
+        )
+      )
+      (project "SmartCaravan"
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/4b192ea4-b50c-4f29-914a-cb19b995dc6c"
+          (reference "Q2") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/67648d4e-4082-43b9-a0d1-7155e8bb1efd"
+          (reference "Q3") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/ba1df6c2-c1e6-44ae-8b3d-dd996450ce77"
+          (reference "Q4") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/b4baabbf-1ea4-440a-9d55-ec64ff5e04c5"
+          (reference "Q5") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/7c63ae45-86df-4e05-bfa9-a69699819595"
+          (reference "Q6") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/e935d23e-356e-4ed7-923e-4ff3e9d1207b"
+          (reference "Q7") (unit 1)
+        )
+      )
+      (project "GSM_GPRS_MODULE_SIM7000G"
+        (path "/7b5c61bb-3beb-4d85-afc0-546a503e9b5f/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "Q2") (unit 1)
+        )
+        (path "/7b5c61bb-3beb-4d85-afc0-546a503e9b5f/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "Q2") (unit 1)
+        )
+      )
+      (project "GSM_module_v3"
+        (path "/8cb1db64-3fcc-4fb6-aa5a-7b4a50bb28df/341bfb02-419a-4358-97bd-e3e3f41a7556/05be99d3-7148-4ecf-8ad5-8c21ea4c2124"
+          (reference "Q8") (unit 1)
+        )
+      )
+      (project "BIM_PCB"
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/9c83602d-c851-4def-afb0-48963dca7404"
+          (reference "Q9") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/16769502-6cd7-4d90-ac70-b9f1d3d3fa47"
+          (reference "Q10") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/eba1f2a4-2c5d-4822-a4ed-1865479f0f6b"
+          (reference "Q11") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/57f051e4-1bb9-4052-b3bd-86c08fdbfa1f"
+          (reference "Q8") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/ad201ec8-e911-4cc6-b434-19a9fff4949b"
+          (reference "Q6") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/d71116eb-94f5-4d19-8fe2-1d5d56dfd59e"
+          (reference "Q7") (unit 1)
+        )
+      )
+      (project "BI_DIRECTIONAL_LOGIC_LEVEL_TRANSLATOR_MOSFET-use"
+        (path "/d5ed9ea7-1d20-4cba-b955-75adcb1b4a20"
+          (reference "Q2") (unit 1)
+        )
+      )
+      (project "ELIESTER_V2"
+        (path "/efe55700-0211-4481-aa01-7a7eb74def17/414f1577-4ce3-43d7-bbf4-7827eef840c4/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "Q10") (unit 1)
+        )
+        (path "/efe55700-0211-4481-aa01-7a7eb74def17/414f1577-4ce3-43d7-bbf4-7827eef840c4/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "Q9") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_US") (at 53.34 67.945 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 68fb94a0-f08b-4d5a-8283-4a6a7017dfa2)
+    (property "Reference" "R16" (at 53.34 63.5 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "1K" (at 53.34 66.04 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 53.594 66.929 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 53.34 67.945 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8f2275fd-a780-4947-98b0-636658306ce3))
+    (pin "2" (uuid 2971437d-efa4-43f4-86b0-2f9278f7d45b))
+    (instances
+      (project "soilpal_v2_display"
+        (path "/0f8c6740-d040-4ce5-9b68-f1b365682d4f/882dd2d8-3941-4c8a-8503-e0fde4fea083/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R16") (unit 1)
+        )
+        (path "/0f8c6740-d040-4ce5-9b68-f1b365682d4f/882dd2d8-3941-4c8a-8503-e0fde4fea083/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R16") (unit 1)
+        )
+      )
+      (project "SmartCaravan"
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/4b192ea4-b50c-4f29-914a-cb19b995dc6c"
+          (reference "R16") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/67648d4e-4082-43b9-a0d1-7155e8bb1efd"
+          (reference "R18") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/ba1df6c2-c1e6-44ae-8b3d-dd996450ce77"
+          (reference "R20") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/b4baabbf-1ea4-440a-9d55-ec64ff5e04c5"
+          (reference "R22") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/7c63ae45-86df-4e05-bfa9-a69699819595"
+          (reference "R24") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/e935d23e-356e-4ed7-923e-4ff3e9d1207b"
+          (reference "R26") (unit 1)
+        )
+      )
+      (project "GSM_GPRS_MODULE_SIM7000G"
+        (path "/7b5c61bb-3beb-4d85-afc0-546a503e9b5f/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R16") (unit 1)
+        )
+        (path "/7b5c61bb-3beb-4d85-afc0-546a503e9b5f/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R16") (unit 1)
+        )
+      )
+      (project "GSM_module_v3"
+        (path "/8cb1db64-3fcc-4fb6-aa5a-7b4a50bb28df/341bfb02-419a-4358-97bd-e3e3f41a7556/05be99d3-7148-4ecf-8ad5-8c21ea4c2124"
+          (reference "R30") (unit 1)
+        )
+      )
+      (project "BIM_PCB"
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/9c83602d-c851-4def-afb0-48963dca7404"
+          (reference "R51") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/16769502-6cd7-4d90-ac70-b9f1d3d3fa47"
+          (reference "R54") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/eba1f2a4-2c5d-4822-a4ed-1865479f0f6b"
+          (reference "R57") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/57f051e4-1bb9-4052-b3bd-86c08fdbfa1f"
+          (reference "R48") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/ad201ec8-e911-4cc6-b434-19a9fff4949b"
+          (reference "R35") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/d71116eb-94f5-4d19-8fe2-1d5d56dfd59e"
+          (reference "R45") (unit 1)
+        )
+      )
+      (project "BI_DIRECTIONAL_LOGIC_LEVEL_TRANSLATOR_MOSFET-use"
+        (path "/d5ed9ea7-1d20-4cba-b955-75adcb1b4a20"
+          (reference "R16") (unit 1)
+        )
+      )
+      (project "ELIESTER_V2"
+        (path "/efe55700-0211-4481-aa01-7a7eb74def17/414f1577-4ce3-43d7-bbf4-7827eef840c4/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R76") (unit 1)
+        )
+        (path "/efe55700-0211-4481-aa01-7a7eb74def17/414f1577-4ce3-43d7-bbf4-7827eef840c4/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R69") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:Q_NMOS_GSD") (at 87.63 142.24 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 7b729351-4fd2-4b3e-8ef7-70dcaadc5c12)
+    (property "Reference" "Q2" (at 87.63 149.225 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "2N7002" (at 87.63 151.765 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 90.17 147.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 87.63 142.24 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e25a6f34-3d1b-42e4-8ff4-615626d42c63))
+    (pin "2" (uuid 1ca81bc2-1b9a-4588-be8d-0200f2269b0e))
+    (pin "3" (uuid 910e1fa5-7c83-48eb-9a89-3fab8d6d3413))
+    (instances
+      (project "soilpal_v2_display"
+        (path "/0f8c6740-d040-4ce5-9b68-f1b365682d4f/882dd2d8-3941-4c8a-8503-e0fde4fea083/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "Q2") (unit 1)
+        )
+        (path "/0f8c6740-d040-4ce5-9b68-f1b365682d4f/882dd2d8-3941-4c8a-8503-e0fde4fea083/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "Q2") (unit 1)
+        )
+      )
+      (project "SmartCaravan"
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/4b192ea4-b50c-4f29-914a-cb19b995dc6c"
+          (reference "Q2") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/67648d4e-4082-43b9-a0d1-7155e8bb1efd"
+          (reference "Q3") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/ba1df6c2-c1e6-44ae-8b3d-dd996450ce77"
+          (reference "Q4") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/b4baabbf-1ea4-440a-9d55-ec64ff5e04c5"
+          (reference "Q5") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/7c63ae45-86df-4e05-bfa9-a69699819595"
+          (reference "Q6") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/e935d23e-356e-4ed7-923e-4ff3e9d1207b"
+          (reference "Q7") (unit 1)
+        )
+      )
+      (project "GSM_GPRS_MODULE_SIM7000G"
+        (path "/7b5c61bb-3beb-4d85-afc0-546a503e9b5f/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "Q2") (unit 1)
+        )
+        (path "/7b5c61bb-3beb-4d85-afc0-546a503e9b5f/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "Q2") (unit 1)
+        )
+      )
+      (project "GSM_module_v3"
+        (path "/8cb1db64-3fcc-4fb6-aa5a-7b4a50bb28df/341bfb02-419a-4358-97bd-e3e3f41a7556/05be99d3-7148-4ecf-8ad5-8c21ea4c2124"
+          (reference "Q5") (unit 1)
+        )
+      )
+      (project "BIM_PCB"
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/9c83602d-c851-4def-afb0-48963dca7404"
+          (reference "Q9") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/16769502-6cd7-4d90-ac70-b9f1d3d3fa47"
+          (reference "Q10") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/eba1f2a4-2c5d-4822-a4ed-1865479f0f6b"
+          (reference "Q11") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/57f051e4-1bb9-4052-b3bd-86c08fdbfa1f"
+          (reference "Q8") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/ad201ec8-e911-4cc6-b434-19a9fff4949b"
+          (reference "Q6") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/d71116eb-94f5-4d19-8fe2-1d5d56dfd59e"
+          (reference "Q7") (unit 1)
+        )
+      )
+      (project "BI_DIRECTIONAL_LOGIC_LEVEL_TRANSLATOR_MOSFET-use"
+        (path "/d5ed9ea7-1d20-4cba-b955-75adcb1b4a20"
+          (reference "Q2") (unit 1)
+        )
+      )
+      (project "ELIESTER_V2"
+        (path "/efe55700-0211-4481-aa01-7a7eb74def17/414f1577-4ce3-43d7-bbf4-7827eef840c4/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "Q10") (unit 1)
+        )
+        (path "/efe55700-0211-4481-aa01-7a7eb74def17/414f1577-4ce3-43d7-bbf4-7827eef840c4/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "Q9") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_US") (at 226.06 66.04 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 81d3fa81-0bb2-41ba-bb71-752eae431192)
+    (property "Reference" "R17" (at 227.965 65.405 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10K" (at 227.965 67.945 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 227.076 66.294 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 226.06 66.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7a8cece7-6d41-48b8-b46e-4dab13103e6d))
+    (pin "2" (uuid 4f1fd273-c3dc-4e5d-8a13-3fd93d723d2e))
+    (instances
+      (project "soilpal_v2_display"
+        (path "/0f8c6740-d040-4ce5-9b68-f1b365682d4f/882dd2d8-3941-4c8a-8503-e0fde4fea083/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R17") (unit 1)
+        )
+        (path "/0f8c6740-d040-4ce5-9b68-f1b365682d4f/882dd2d8-3941-4c8a-8503-e0fde4fea083/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R17") (unit 1)
+        )
+      )
+      (project "SmartCaravan"
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/4b192ea4-b50c-4f29-914a-cb19b995dc6c"
+          (reference "R17") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/67648d4e-4082-43b9-a0d1-7155e8bb1efd"
+          (reference "R19") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/ba1df6c2-c1e6-44ae-8b3d-dd996450ce77"
+          (reference "R21") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/b4baabbf-1ea4-440a-9d55-ec64ff5e04c5"
+          (reference "R23") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/7c63ae45-86df-4e05-bfa9-a69699819595"
+          (reference "R25") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/e935d23e-356e-4ed7-923e-4ff3e9d1207b"
+          (reference "R27") (unit 1)
+        )
+      )
+      (project "GSM_GPRS_MODULE_SIM7000G"
+        (path "/7b5c61bb-3beb-4d85-afc0-546a503e9b5f/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R17") (unit 1)
+        )
+        (path "/7b5c61bb-3beb-4d85-afc0-546a503e9b5f/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R17") (unit 1)
+        )
+      )
+      (project "GSM_module_v3"
+        (path "/8cb1db64-3fcc-4fb6-aa5a-7b4a50bb28df/341bfb02-419a-4358-97bd-e3e3f41a7556/05be99d3-7148-4ecf-8ad5-8c21ea4c2124"
+          (reference "R44") (unit 1)
+        )
+      )
+      (project "BIM_PCB"
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/9c83602d-c851-4def-afb0-48963dca7404"
+          (reference "R50") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/16769502-6cd7-4d90-ac70-b9f1d3d3fa47"
+          (reference "R53") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/eba1f2a4-2c5d-4822-a4ed-1865479f0f6b"
+          (reference "R56") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/57f051e4-1bb9-4052-b3bd-86c08fdbfa1f"
+          (reference "R47") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/ad201ec8-e911-4cc6-b434-19a9fff4949b"
+          (reference "R34") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/d71116eb-94f5-4d19-8fe2-1d5d56dfd59e"
+          (reference "R40") (unit 1)
+        )
+      )
+      (project "BI_DIRECTIONAL_LOGIC_LEVEL_TRANSLATOR_MOSFET-use"
+        (path "/d5ed9ea7-1d20-4cba-b955-75adcb1b4a20"
+          (reference "R17") (unit 1)
+        )
+      )
+      (project "ELIESTER_V2"
+        (path "/efe55700-0211-4481-aa01-7a7eb74def17/414f1577-4ce3-43d7-bbf4-7827eef840c4/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R75") (unit 1)
+        )
+        (path "/efe55700-0211-4481-aa01-7a7eb74def17/414f1577-4ce3-43d7-bbf4-7827eef840c4/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R68") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_US") (at 53.34 109.22 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 82fda860-6df1-4df2-9768-5853685ff794)
+    (property "Reference" "R16" (at 53.34 104.775 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "1K" (at 53.34 107.315 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 53.594 108.204 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 53.34 109.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 829c270f-c324-4a00-8c79-9b5fbc33f3a4))
+    (pin "2" (uuid 12439c29-cbb0-44e7-91eb-ca22acbe3652))
+    (instances
+      (project "soilpal_v2_display"
+        (path "/0f8c6740-d040-4ce5-9b68-f1b365682d4f/882dd2d8-3941-4c8a-8503-e0fde4fea083/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R16") (unit 1)
+        )
+        (path "/0f8c6740-d040-4ce5-9b68-f1b365682d4f/882dd2d8-3941-4c8a-8503-e0fde4fea083/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R16") (unit 1)
+        )
+      )
+      (project "SmartCaravan"
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/4b192ea4-b50c-4f29-914a-cb19b995dc6c"
+          (reference "R16") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/67648d4e-4082-43b9-a0d1-7155e8bb1efd"
+          (reference "R18") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/ba1df6c2-c1e6-44ae-8b3d-dd996450ce77"
+          (reference "R20") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/b4baabbf-1ea4-440a-9d55-ec64ff5e04c5"
+          (reference "R22") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/7c63ae45-86df-4e05-bfa9-a69699819595"
+          (reference "R24") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/e935d23e-356e-4ed7-923e-4ff3e9d1207b"
+          (reference "R26") (unit 1)
+        )
+      )
+      (project "GSM_GPRS_MODULE_SIM7000G"
+        (path "/7b5c61bb-3beb-4d85-afc0-546a503e9b5f/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R16") (unit 1)
+        )
+        (path "/7b5c61bb-3beb-4d85-afc0-546a503e9b5f/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R16") (unit 1)
+        )
+      )
+      (project "GSM_module_v3"
+        (path "/8cb1db64-3fcc-4fb6-aa5a-7b4a50bb28df/341bfb02-419a-4358-97bd-e3e3f41a7556/05be99d3-7148-4ecf-8ad5-8c21ea4c2124"
+          (reference "R31") (unit 1)
+        )
+      )
+      (project "BIM_PCB"
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/9c83602d-c851-4def-afb0-48963dca7404"
+          (reference "R51") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/16769502-6cd7-4d90-ac70-b9f1d3d3fa47"
+          (reference "R54") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/eba1f2a4-2c5d-4822-a4ed-1865479f0f6b"
+          (reference "R57") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/57f051e4-1bb9-4052-b3bd-86c08fdbfa1f"
+          (reference "R48") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/ad201ec8-e911-4cc6-b434-19a9fff4949b"
+          (reference "R35") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/d71116eb-94f5-4d19-8fe2-1d5d56dfd59e"
+          (reference "R45") (unit 1)
+        )
+      )
+      (project "BI_DIRECTIONAL_LOGIC_LEVEL_TRANSLATOR_MOSFET-use"
+        (path "/d5ed9ea7-1d20-4cba-b955-75adcb1b4a20"
+          (reference "R16") (unit 1)
+        )
+      )
+      (project "ELIESTER_V2"
+        (path "/efe55700-0211-4481-aa01-7a7eb74def17/414f1577-4ce3-43d7-bbf4-7827eef840c4/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R76") (unit 1)
+        )
+        (path "/efe55700-0211-4481-aa01-7a7eb74def17/414f1577-4ce3-43d7-bbf4-7827eef840c4/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R69") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_US") (at 190.5 66.04 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 8abf6d32-151b-4b7c-beaf-bc25715aee92)
+    (property "Reference" "R16" (at 192.405 65.405 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10K" (at 192.405 67.945 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 191.516 66.294 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 190.5 66.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 62815d2a-7ce3-4353-8054-40c7f89e77b9))
+    (pin "2" (uuid 03e9cdd8-f98a-4579-bdfb-0926091ce449))
+    (instances
+      (project "soilpal_v2_display"
+        (path "/0f8c6740-d040-4ce5-9b68-f1b365682d4f/882dd2d8-3941-4c8a-8503-e0fde4fea083/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R16") (unit 1)
+        )
+        (path "/0f8c6740-d040-4ce5-9b68-f1b365682d4f/882dd2d8-3941-4c8a-8503-e0fde4fea083/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R16") (unit 1)
+        )
+      )
+      (project "SmartCaravan"
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/4b192ea4-b50c-4f29-914a-cb19b995dc6c"
+          (reference "R16") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/67648d4e-4082-43b9-a0d1-7155e8bb1efd"
+          (reference "R18") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/ba1df6c2-c1e6-44ae-8b3d-dd996450ce77"
+          (reference "R20") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/b4baabbf-1ea4-440a-9d55-ec64ff5e04c5"
+          (reference "R22") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/7c63ae45-86df-4e05-bfa9-a69699819595"
+          (reference "R24") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/e935d23e-356e-4ed7-923e-4ff3e9d1207b"
+          (reference "R26") (unit 1)
+        )
+      )
+      (project "GSM_GPRS_MODULE_SIM7000G"
+        (path "/7b5c61bb-3beb-4d85-afc0-546a503e9b5f/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R16") (unit 1)
+        )
+        (path "/7b5c61bb-3beb-4d85-afc0-546a503e9b5f/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R16") (unit 1)
+        )
+      )
+      (project "GSM_module_v3"
+        (path "/8cb1db64-3fcc-4fb6-aa5a-7b4a50bb28df/341bfb02-419a-4358-97bd-e3e3f41a7556/05be99d3-7148-4ecf-8ad5-8c21ea4c2124"
+          (reference "R42") (unit 1)
+        )
+      )
+      (project "BIM_PCB"
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/9c83602d-c851-4def-afb0-48963dca7404"
+          (reference "R49") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/16769502-6cd7-4d90-ac70-b9f1d3d3fa47"
+          (reference "R52") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/eba1f2a4-2c5d-4822-a4ed-1865479f0f6b"
+          (reference "R55") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/57f051e4-1bb9-4052-b3bd-86c08fdbfa1f"
+          (reference "R46") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/ad201ec8-e911-4cc6-b434-19a9fff4949b"
+          (reference "R33") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/d71116eb-94f5-4d19-8fe2-1d5d56dfd59e"
+          (reference "R36") (unit 1)
+        )
+      )
+      (project "BI_DIRECTIONAL_LOGIC_LEVEL_TRANSLATOR_MOSFET-use"
+        (path "/d5ed9ea7-1d20-4cba-b955-75adcb1b4a20"
+          (reference "R16") (unit 1)
+        )
+      )
+      (project "ELIESTER_V2"
+        (path "/efe55700-0211-4481-aa01-7a7eb74def17/414f1577-4ce3-43d7-bbf4-7827eef840c4/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R74") (unit 1)
+        )
+        (path "/efe55700-0211-4481-aa01-7a7eb74def17/414f1577-4ce3-43d7-bbf4-7827eef840c4/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R67") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_US") (at 226.06 111.76 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 8d804990-6f65-438f-b86f-525177f0f39e)
+    (property "Reference" "R17" (at 227.965 111.125 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10K" (at 227.965 113.665 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 227.076 112.014 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 226.06 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1225e8f8-c403-4d05-9da8-e40bbc9ef897))
+    (pin "2" (uuid bb1cf3b4-a02c-4ad7-a977-4624bb3e11ab))
+    (instances
+      (project "soilpal_v2_display"
+        (path "/0f8c6740-d040-4ce5-9b68-f1b365682d4f/882dd2d8-3941-4c8a-8503-e0fde4fea083/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R17") (unit 1)
+        )
+        (path "/0f8c6740-d040-4ce5-9b68-f1b365682d4f/882dd2d8-3941-4c8a-8503-e0fde4fea083/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R17") (unit 1)
+        )
+      )
+      (project "SmartCaravan"
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/4b192ea4-b50c-4f29-914a-cb19b995dc6c"
+          (reference "R17") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/67648d4e-4082-43b9-a0d1-7155e8bb1efd"
+          (reference "R19") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/ba1df6c2-c1e6-44ae-8b3d-dd996450ce77"
+          (reference "R21") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/b4baabbf-1ea4-440a-9d55-ec64ff5e04c5"
+          (reference "R23") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/7c63ae45-86df-4e05-bfa9-a69699819595"
+          (reference "R25") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/e935d23e-356e-4ed7-923e-4ff3e9d1207b"
+          (reference "R27") (unit 1)
+        )
+      )
+      (project "GSM_GPRS_MODULE_SIM7000G"
+        (path "/7b5c61bb-3beb-4d85-afc0-546a503e9b5f/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R17") (unit 1)
+        )
+        (path "/7b5c61bb-3beb-4d85-afc0-546a503e9b5f/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R17") (unit 1)
+        )
+      )
+      (project "GSM_module_v3"
+        (path "/8cb1db64-3fcc-4fb6-aa5a-7b4a50bb28df/341bfb02-419a-4358-97bd-e3e3f41a7556/05be99d3-7148-4ecf-8ad5-8c21ea4c2124"
+          (reference "R45") (unit 1)
+        )
+      )
+      (project "BIM_PCB"
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/9c83602d-c851-4def-afb0-48963dca7404"
+          (reference "R50") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/16769502-6cd7-4d90-ac70-b9f1d3d3fa47"
+          (reference "R53") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/eba1f2a4-2c5d-4822-a4ed-1865479f0f6b"
+          (reference "R56") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/57f051e4-1bb9-4052-b3bd-86c08fdbfa1f"
+          (reference "R47") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/ad201ec8-e911-4cc6-b434-19a9fff4949b"
+          (reference "R34") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/d71116eb-94f5-4d19-8fe2-1d5d56dfd59e"
+          (reference "R40") (unit 1)
+        )
+      )
+      (project "BI_DIRECTIONAL_LOGIC_LEVEL_TRANSLATOR_MOSFET-use"
+        (path "/d5ed9ea7-1d20-4cba-b955-75adcb1b4a20"
+          (reference "R17") (unit 1)
+        )
+      )
+      (project "ELIESTER_V2"
+        (path "/efe55700-0211-4481-aa01-7a7eb74def17/414f1577-4ce3-43d7-bbf4-7827eef840c4/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R75") (unit 1)
+        )
+        (path "/efe55700-0211-4481-aa01-7a7eb74def17/414f1577-4ce3-43d7-bbf4-7827eef840c4/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R68") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:Q_NMOS_GSD") (at 88.9 106.68 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 9a7771ed-8054-420b-977e-6d49fc161b5f)
+    (property "Reference" "Q2" (at 88.9 113.665 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "2N7002" (at 88.9 116.205 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 91.44 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 88.9 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 43a54eb8-21dc-4bac-b323-479a20a7ce5e))
+    (pin "2" (uuid 2d5c8e2f-2801-4636-a841-1e8aa2520cae))
+    (pin "3" (uuid 238a1271-fced-4475-86df-4ff460dbc1f7))
+    (instances
+      (project "soilpal_v2_display"
+        (path "/0f8c6740-d040-4ce5-9b68-f1b365682d4f/882dd2d8-3941-4c8a-8503-e0fde4fea083/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "Q2") (unit 1)
+        )
+        (path "/0f8c6740-d040-4ce5-9b68-f1b365682d4f/882dd2d8-3941-4c8a-8503-e0fde4fea083/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "Q2") (unit 1)
+        )
+      )
+      (project "SmartCaravan"
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/4b192ea4-b50c-4f29-914a-cb19b995dc6c"
+          (reference "Q2") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/67648d4e-4082-43b9-a0d1-7155e8bb1efd"
+          (reference "Q3") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/ba1df6c2-c1e6-44ae-8b3d-dd996450ce77"
+          (reference "Q4") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/b4baabbf-1ea4-440a-9d55-ec64ff5e04c5"
+          (reference "Q5") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/7c63ae45-86df-4e05-bfa9-a69699819595"
+          (reference "Q6") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/e935d23e-356e-4ed7-923e-4ff3e9d1207b"
+          (reference "Q7") (unit 1)
+        )
+      )
+      (project "GSM_GPRS_MODULE_SIM7000G"
+        (path "/7b5c61bb-3beb-4d85-afc0-546a503e9b5f/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "Q2") (unit 1)
+        )
+        (path "/7b5c61bb-3beb-4d85-afc0-546a503e9b5f/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "Q2") (unit 1)
+        )
+      )
+      (project "GSM_module_v3"
+        (path "/8cb1db64-3fcc-4fb6-aa5a-7b4a50bb28df/341bfb02-419a-4358-97bd-e3e3f41a7556/05be99d3-7148-4ecf-8ad5-8c21ea4c2124"
+          (reference "Q7") (unit 1)
+        )
+      )
+      (project "BIM_PCB"
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/9c83602d-c851-4def-afb0-48963dca7404"
+          (reference "Q9") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/16769502-6cd7-4d90-ac70-b9f1d3d3fa47"
+          (reference "Q10") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/eba1f2a4-2c5d-4822-a4ed-1865479f0f6b"
+          (reference "Q11") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/57f051e4-1bb9-4052-b3bd-86c08fdbfa1f"
+          (reference "Q8") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/ad201ec8-e911-4cc6-b434-19a9fff4949b"
+          (reference "Q6") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/d71116eb-94f5-4d19-8fe2-1d5d56dfd59e"
+          (reference "Q7") (unit 1)
+        )
+      )
+      (project "BI_DIRECTIONAL_LOGIC_LEVEL_TRANSLATOR_MOSFET-use"
+        (path "/d5ed9ea7-1d20-4cba-b955-75adcb1b4a20"
+          (reference "Q2") (unit 1)
+        )
+      )
+      (project "ELIESTER_V2"
+        (path "/efe55700-0211-4481-aa01-7a7eb74def17/414f1577-4ce3-43d7-bbf4-7827eef840c4/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "Q10") (unit 1)
+        )
+        (path "/efe55700-0211-4481-aa01-7a7eb74def17/414f1577-4ce3-43d7-bbf4-7827eef840c4/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "Q9") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_US") (at 73.66 60.325 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b0cc0cb9-8ab9-41f6-95e5-e286d3f3b880)
+    (property "Reference" "R16" (at 75.565 59.69 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10K" (at 75.565 62.23 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 74.676 60.579 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 73.66 60.325 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 86b52bf1-16f5-4794-822e-bfe9a3861dc4))
+    (pin "2" (uuid 296d7664-843f-4ce0-a964-ec524cd36d4d))
+    (instances
+      (project "soilpal_v2_display"
+        (path "/0f8c6740-d040-4ce5-9b68-f1b365682d4f/882dd2d8-3941-4c8a-8503-e0fde4fea083/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R16") (unit 1)
+        )
+        (path "/0f8c6740-d040-4ce5-9b68-f1b365682d4f/882dd2d8-3941-4c8a-8503-e0fde4fea083/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R16") (unit 1)
+        )
+      )
+      (project "SmartCaravan"
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/4b192ea4-b50c-4f29-914a-cb19b995dc6c"
+          (reference "R16") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/67648d4e-4082-43b9-a0d1-7155e8bb1efd"
+          (reference "R18") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/ba1df6c2-c1e6-44ae-8b3d-dd996450ce77"
+          (reference "R20") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/b4baabbf-1ea4-440a-9d55-ec64ff5e04c5"
+          (reference "R22") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/7c63ae45-86df-4e05-bfa9-a69699819595"
+          (reference "R24") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/e935d23e-356e-4ed7-923e-4ff3e9d1207b"
+          (reference "R26") (unit 1)
+        )
+      )
+      (project "GSM_GPRS_MODULE_SIM7000G"
+        (path "/7b5c61bb-3beb-4d85-afc0-546a503e9b5f/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R16") (unit 1)
+        )
+        (path "/7b5c61bb-3beb-4d85-afc0-546a503e9b5f/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R16") (unit 1)
+        )
+      )
+      (project "GSM_module_v3"
+        (path "/8cb1db64-3fcc-4fb6-aa5a-7b4a50bb28df/341bfb02-419a-4358-97bd-e3e3f41a7556/05be99d3-7148-4ecf-8ad5-8c21ea4c2124"
+          (reference "R34") (unit 1)
+        )
+      )
+      (project "BIM_PCB"
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/9c83602d-c851-4def-afb0-48963dca7404"
+          (reference "R49") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/16769502-6cd7-4d90-ac70-b9f1d3d3fa47"
+          (reference "R52") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/eba1f2a4-2c5d-4822-a4ed-1865479f0f6b"
+          (reference "R55") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/57f051e4-1bb9-4052-b3bd-86c08fdbfa1f"
+          (reference "R46") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/ad201ec8-e911-4cc6-b434-19a9fff4949b"
+          (reference "R33") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/d71116eb-94f5-4d19-8fe2-1d5d56dfd59e"
+          (reference "R36") (unit 1)
+        )
+      )
+      (project "BI_DIRECTIONAL_LOGIC_LEVEL_TRANSLATOR_MOSFET-use"
+        (path "/d5ed9ea7-1d20-4cba-b955-75adcb1b4a20"
+          (reference "R16") (unit 1)
+        )
+      )
+      (project "ELIESTER_V2"
+        (path "/efe55700-0211-4481-aa01-7a7eb74def17/414f1577-4ce3-43d7-bbf4-7827eef840c4/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R74") (unit 1)
+        )
+        (path "/efe55700-0211-4481-aa01-7a7eb74def17/414f1577-4ce3-43d7-bbf4-7827eef840c4/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R67") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_US") (at 170.18 73.66 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b4827c74-1147-4874-b840-e0843b62f0c7)
+    (property "Reference" "R16" (at 170.18 69.215 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "1K" (at 170.18 71.755 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 170.434 72.644 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 170.18 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5668a3e8-b59c-4846-a0e5-789751fc4a64))
+    (pin "2" (uuid de85ba28-0077-4fd2-b255-0b989722c011))
+    (instances
+      (project "soilpal_v2_display"
+        (path "/0f8c6740-d040-4ce5-9b68-f1b365682d4f/882dd2d8-3941-4c8a-8503-e0fde4fea083/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R16") (unit 1)
+        )
+        (path "/0f8c6740-d040-4ce5-9b68-f1b365682d4f/882dd2d8-3941-4c8a-8503-e0fde4fea083/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R16") (unit 1)
+        )
+      )
+      (project "SmartCaravan"
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/4b192ea4-b50c-4f29-914a-cb19b995dc6c"
+          (reference "R16") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/67648d4e-4082-43b9-a0d1-7155e8bb1efd"
+          (reference "R18") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/ba1df6c2-c1e6-44ae-8b3d-dd996450ce77"
+          (reference "R20") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/b4baabbf-1ea4-440a-9d55-ec64ff5e04c5"
+          (reference "R22") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/7c63ae45-86df-4e05-bfa9-a69699819595"
+          (reference "R24") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/e935d23e-356e-4ed7-923e-4ff3e9d1207b"
+          (reference "R26") (unit 1)
+        )
+      )
+      (project "GSM_GPRS_MODULE_SIM7000G"
+        (path "/7b5c61bb-3beb-4d85-afc0-546a503e9b5f/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R16") (unit 1)
+        )
+        (path "/7b5c61bb-3beb-4d85-afc0-546a503e9b5f/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R16") (unit 1)
+        )
+      )
+      (project "GSM_module_v3"
+        (path "/8cb1db64-3fcc-4fb6-aa5a-7b4a50bb28df/341bfb02-419a-4358-97bd-e3e3f41a7556/05be99d3-7148-4ecf-8ad5-8c21ea4c2124"
+          (reference "R40") (unit 1)
+        )
+      )
+      (project "BIM_PCB"
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/9c83602d-c851-4def-afb0-48963dca7404"
+          (reference "R51") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/16769502-6cd7-4d90-ac70-b9f1d3d3fa47"
+          (reference "R54") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/eba1f2a4-2c5d-4822-a4ed-1865479f0f6b"
+          (reference "R57") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/57f051e4-1bb9-4052-b3bd-86c08fdbfa1f"
+          (reference "R48") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/ad201ec8-e911-4cc6-b434-19a9fff4949b"
+          (reference "R35") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/d71116eb-94f5-4d19-8fe2-1d5d56dfd59e"
+          (reference "R45") (unit 1)
+        )
+      )
+      (project "BI_DIRECTIONAL_LOGIC_LEVEL_TRANSLATOR_MOSFET-use"
+        (path "/d5ed9ea7-1d20-4cba-b955-75adcb1b4a20"
+          (reference "R16") (unit 1)
+        )
+      )
+      (project "ELIESTER_V2"
+        (path "/efe55700-0211-4481-aa01-7a7eb74def17/414f1577-4ce3-43d7-bbf4-7827eef840c4/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R76") (unit 1)
+        )
+        (path "/efe55700-0211-4481-aa01-7a7eb74def17/414f1577-4ce3-43d7-bbf4-7827eef840c4/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R69") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:Q_NMOS_GSD") (at 88.9 65.405 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b8c8d18b-f30a-4e41-8c61-5e2ab3945bc7)
+    (property "Reference" "Q2" (at 88.9 72.39 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "2N7002" (at 88.9 74.93 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 91.44 70.485 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 88.9 65.405 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid aa4e3c63-4f87-4d5c-9155-b31b356d22ee))
+    (pin "2" (uuid 8d4fc648-8004-4b3e-ae33-5d4ec073ad3c))
+    (pin "3" (uuid 0ae77843-8d0c-40f5-86a2-a1c7e69407e7))
+    (instances
+      (project "soilpal_v2_display"
+        (path "/0f8c6740-d040-4ce5-9b68-f1b365682d4f/882dd2d8-3941-4c8a-8503-e0fde4fea083/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "Q2") (unit 1)
+        )
+        (path "/0f8c6740-d040-4ce5-9b68-f1b365682d4f/882dd2d8-3941-4c8a-8503-e0fde4fea083/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "Q2") (unit 1)
+        )
+      )
+      (project "SmartCaravan"
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/4b192ea4-b50c-4f29-914a-cb19b995dc6c"
+          (reference "Q2") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/67648d4e-4082-43b9-a0d1-7155e8bb1efd"
+          (reference "Q3") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/ba1df6c2-c1e6-44ae-8b3d-dd996450ce77"
+          (reference "Q4") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/b4baabbf-1ea4-440a-9d55-ec64ff5e04c5"
+          (reference "Q5") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/7c63ae45-86df-4e05-bfa9-a69699819595"
+          (reference "Q6") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/e935d23e-356e-4ed7-923e-4ff3e9d1207b"
+          (reference "Q7") (unit 1)
+        )
+      )
+      (project "GSM_GPRS_MODULE_SIM7000G"
+        (path "/7b5c61bb-3beb-4d85-afc0-546a503e9b5f/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "Q2") (unit 1)
+        )
+        (path "/7b5c61bb-3beb-4d85-afc0-546a503e9b5f/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "Q2") (unit 1)
+        )
+      )
+      (project "GSM_module_v3"
+        (path "/8cb1db64-3fcc-4fb6-aa5a-7b4a50bb28df/341bfb02-419a-4358-97bd-e3e3f41a7556/05be99d3-7148-4ecf-8ad5-8c21ea4c2124"
+          (reference "Q6") (unit 1)
+        )
+      )
+      (project "BIM_PCB"
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/9c83602d-c851-4def-afb0-48963dca7404"
+          (reference "Q9") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/16769502-6cd7-4d90-ac70-b9f1d3d3fa47"
+          (reference "Q10") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/eba1f2a4-2c5d-4822-a4ed-1865479f0f6b"
+          (reference "Q11") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/57f051e4-1bb9-4052-b3bd-86c08fdbfa1f"
+          (reference "Q8") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/ad201ec8-e911-4cc6-b434-19a9fff4949b"
+          (reference "Q6") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/d71116eb-94f5-4d19-8fe2-1d5d56dfd59e"
+          (reference "Q7") (unit 1)
+        )
+      )
+      (project "BI_DIRECTIONAL_LOGIC_LEVEL_TRANSLATOR_MOSFET-use"
+        (path "/d5ed9ea7-1d20-4cba-b955-75adcb1b4a20"
+          (reference "Q2") (unit 1)
+        )
+      )
+      (project "ELIESTER_V2"
+        (path "/efe55700-0211-4481-aa01-7a7eb74def17/414f1577-4ce3-43d7-bbf4-7827eef840c4/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "Q10") (unit 1)
+        )
+        (path "/efe55700-0211-4481-aa01-7a7eb74def17/414f1577-4ce3-43d7-bbf4-7827eef840c4/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "Q9") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_US") (at 72.39 137.16 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c47cfa22-b2d8-469f-8401-478c2cb93ca7)
+    (property "Reference" "R16" (at 74.295 136.525 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10K" (at 74.295 139.065 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 73.406 137.414 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 72.39 137.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6eb94b5e-d530-47f3-a07e-a528389accc8))
+    (pin "2" (uuid cdb2aa06-207a-4b5a-91f6-6951cd8ae1a1))
+    (instances
+      (project "soilpal_v2_display"
+        (path "/0f8c6740-d040-4ce5-9b68-f1b365682d4f/882dd2d8-3941-4c8a-8503-e0fde4fea083/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R16") (unit 1)
+        )
+        (path "/0f8c6740-d040-4ce5-9b68-f1b365682d4f/882dd2d8-3941-4c8a-8503-e0fde4fea083/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R16") (unit 1)
+        )
+      )
+      (project "SmartCaravan"
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/4b192ea4-b50c-4f29-914a-cb19b995dc6c"
+          (reference "R16") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/67648d4e-4082-43b9-a0d1-7155e8bb1efd"
+          (reference "R18") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/ba1df6c2-c1e6-44ae-8b3d-dd996450ce77"
+          (reference "R20") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/b4baabbf-1ea4-440a-9d55-ec64ff5e04c5"
+          (reference "R22") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/7c63ae45-86df-4e05-bfa9-a69699819595"
+          (reference "R24") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/e935d23e-356e-4ed7-923e-4ff3e9d1207b"
+          (reference "R26") (unit 1)
+        )
+      )
+      (project "GSM_GPRS_MODULE_SIM7000G"
+        (path "/7b5c61bb-3beb-4d85-afc0-546a503e9b5f/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R16") (unit 1)
+        )
+        (path "/7b5c61bb-3beb-4d85-afc0-546a503e9b5f/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R16") (unit 1)
+        )
+      )
+      (project "GSM_module_v3"
+        (path "/8cb1db64-3fcc-4fb6-aa5a-7b4a50bb28df/341bfb02-419a-4358-97bd-e3e3f41a7556/05be99d3-7148-4ecf-8ad5-8c21ea4c2124"
+          (reference "R33") (unit 1)
+        )
+      )
+      (project "BIM_PCB"
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/9c83602d-c851-4def-afb0-48963dca7404"
+          (reference "R49") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/16769502-6cd7-4d90-ac70-b9f1d3d3fa47"
+          (reference "R52") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/eba1f2a4-2c5d-4822-a4ed-1865479f0f6b"
+          (reference "R55") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/57f051e4-1bb9-4052-b3bd-86c08fdbfa1f"
+          (reference "R46") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/ad201ec8-e911-4cc6-b434-19a9fff4949b"
+          (reference "R33") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/d71116eb-94f5-4d19-8fe2-1d5d56dfd59e"
+          (reference "R36") (unit 1)
+        )
+      )
+      (project "BI_DIRECTIONAL_LOGIC_LEVEL_TRANSLATOR_MOSFET-use"
+        (path "/d5ed9ea7-1d20-4cba-b955-75adcb1b4a20"
+          (reference "R16") (unit 1)
+        )
+      )
+      (project "ELIESTER_V2"
+        (path "/efe55700-0211-4481-aa01-7a7eb74def17/414f1577-4ce3-43d7-bbf4-7827eef840c4/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R74") (unit 1)
+        )
+        (path "/efe55700-0211-4481-aa01-7a7eb74def17/414f1577-4ce3-43d7-bbf4-7827eef840c4/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R67") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_US") (at 109.22 101.6 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid d7ae3696-aeb8-4cce-99dd-cae6f983a6ec)
+    (property "Reference" "R17" (at 111.125 100.965 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10K" (at 111.125 103.505 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 110.236 101.854 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 109.22 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 11200327-c8b4-44ba-abff-562b45d3b8fa))
+    (pin "2" (uuid 0030b334-deb2-4f05-ac1a-7ce58bf84c7c))
+    (instances
+      (project "soilpal_v2_display"
+        (path "/0f8c6740-d040-4ce5-9b68-f1b365682d4f/882dd2d8-3941-4c8a-8503-e0fde4fea083/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R17") (unit 1)
+        )
+        (path "/0f8c6740-d040-4ce5-9b68-f1b365682d4f/882dd2d8-3941-4c8a-8503-e0fde4fea083/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R17") (unit 1)
+        )
+      )
+      (project "SmartCaravan"
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/4b192ea4-b50c-4f29-914a-cb19b995dc6c"
+          (reference "R17") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/67648d4e-4082-43b9-a0d1-7155e8bb1efd"
+          (reference "R19") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/ba1df6c2-c1e6-44ae-8b3d-dd996450ce77"
+          (reference "R21") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/b4baabbf-1ea4-440a-9d55-ec64ff5e04c5"
+          (reference "R23") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/7c63ae45-86df-4e05-bfa9-a69699819595"
+          (reference "R25") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/e935d23e-356e-4ed7-923e-4ff3e9d1207b"
+          (reference "R27") (unit 1)
+        )
+      )
+      (project "GSM_GPRS_MODULE_SIM7000G"
+        (path "/7b5c61bb-3beb-4d85-afc0-546a503e9b5f/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R17") (unit 1)
+        )
+        (path "/7b5c61bb-3beb-4d85-afc0-546a503e9b5f/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R17") (unit 1)
+        )
+      )
+      (project "GSM_module_v3"
+        (path "/8cb1db64-3fcc-4fb6-aa5a-7b4a50bb28df/341bfb02-419a-4358-97bd-e3e3f41a7556/05be99d3-7148-4ecf-8ad5-8c21ea4c2124"
+          (reference "R39") (unit 1)
+        )
+      )
+      (project "BIM_PCB"
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/9c83602d-c851-4def-afb0-48963dca7404"
+          (reference "R50") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/16769502-6cd7-4d90-ac70-b9f1d3d3fa47"
+          (reference "R53") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/eba1f2a4-2c5d-4822-a4ed-1865479f0f6b"
+          (reference "R56") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/57f051e4-1bb9-4052-b3bd-86c08fdbfa1f"
+          (reference "R47") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/ad201ec8-e911-4cc6-b434-19a9fff4949b"
+          (reference "R34") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/d71116eb-94f5-4d19-8fe2-1d5d56dfd59e"
+          (reference "R40") (unit 1)
+        )
+      )
+      (project "BI_DIRECTIONAL_LOGIC_LEVEL_TRANSLATOR_MOSFET-use"
+        (path "/d5ed9ea7-1d20-4cba-b955-75adcb1b4a20"
+          (reference "R17") (unit 1)
+        )
+      )
+      (project "ELIESTER_V2"
+        (path "/efe55700-0211-4481-aa01-7a7eb74def17/414f1577-4ce3-43d7-bbf4-7827eef840c4/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R75") (unit 1)
+        )
+        (path "/efe55700-0211-4481-aa01-7a7eb74def17/414f1577-4ce3-43d7-bbf4-7827eef840c4/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R68") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_US") (at 107.95 137.16 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid ef7eb70f-bb82-4556-ae42-2a68c3ef5cdb)
+    (property "Reference" "R17" (at 109.855 136.525 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10K" (at 109.855 139.065 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 108.966 137.414 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 107.95 137.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d92960e2-6803-4e1f-91ca-b9f30ab2c2f3))
+    (pin "2" (uuid e603d82c-919c-41ad-b0e0-67b22734e2f5))
+    (instances
+      (project "soilpal_v2_display"
+        (path "/0f8c6740-d040-4ce5-9b68-f1b365682d4f/882dd2d8-3941-4c8a-8503-e0fde4fea083/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R17") (unit 1)
+        )
+        (path "/0f8c6740-d040-4ce5-9b68-f1b365682d4f/882dd2d8-3941-4c8a-8503-e0fde4fea083/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R17") (unit 1)
+        )
+      )
+      (project "SmartCaravan"
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/4b192ea4-b50c-4f29-914a-cb19b995dc6c"
+          (reference "R17") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/67648d4e-4082-43b9-a0d1-7155e8bb1efd"
+          (reference "R19") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/ba1df6c2-c1e6-44ae-8b3d-dd996450ce77"
+          (reference "R21") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/b4baabbf-1ea4-440a-9d55-ec64ff5e04c5"
+          (reference "R23") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/7c63ae45-86df-4e05-bfa9-a69699819595"
+          (reference "R25") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/e935d23e-356e-4ed7-923e-4ff3e9d1207b"
+          (reference "R27") (unit 1)
+        )
+      )
+      (project "GSM_GPRS_MODULE_SIM7000G"
+        (path "/7b5c61bb-3beb-4d85-afc0-546a503e9b5f/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R17") (unit 1)
+        )
+        (path "/7b5c61bb-3beb-4d85-afc0-546a503e9b5f/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R17") (unit 1)
+        )
+      )
+      (project "GSM_module_v3"
+        (path "/8cb1db64-3fcc-4fb6-aa5a-7b4a50bb28df/341bfb02-419a-4358-97bd-e3e3f41a7556/05be99d3-7148-4ecf-8ad5-8c21ea4c2124"
+          (reference "R37") (unit 1)
+        )
+      )
+      (project "BIM_PCB"
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/9c83602d-c851-4def-afb0-48963dca7404"
+          (reference "R50") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/16769502-6cd7-4d90-ac70-b9f1d3d3fa47"
+          (reference "R53") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/eba1f2a4-2c5d-4822-a4ed-1865479f0f6b"
+          (reference "R56") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/57f051e4-1bb9-4052-b3bd-86c08fdbfa1f"
+          (reference "R47") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/ad201ec8-e911-4cc6-b434-19a9fff4949b"
+          (reference "R34") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/d71116eb-94f5-4d19-8fe2-1d5d56dfd59e"
+          (reference "R40") (unit 1)
+        )
+      )
+      (project "BI_DIRECTIONAL_LOGIC_LEVEL_TRANSLATOR_MOSFET-use"
+        (path "/d5ed9ea7-1d20-4cba-b955-75adcb1b4a20"
+          (reference "R17") (unit 1)
+        )
+      )
+      (project "ELIESTER_V2"
+        (path "/efe55700-0211-4481-aa01-7a7eb74def17/414f1577-4ce3-43d7-bbf4-7827eef840c4/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R75") (unit 1)
+        )
+        (path "/efe55700-0211-4481-aa01-7a7eb74def17/414f1577-4ce3-43d7-bbf4-7827eef840c4/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R68") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:Q_NMOS_GSD") (at 205.74 116.84 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid fb4c1c06-792c-40d4-a112-bfa33c664f40)
+    (property "Reference" "Q2" (at 205.74 123.825 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "2N7002" (at 205.74 126.365 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 208.28 121.92 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 205.74 116.84 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 753b1b51-2939-44b0-b8ed-3fff1aa88a3c))
+    (pin "2" (uuid 99afc9e4-18b4-422c-93fb-c21274a954f7))
+    (pin "3" (uuid 177c55e4-7266-4c0b-82b1-9357217753b2))
+    (instances
+      (project "soilpal_v2_display"
+        (path "/0f8c6740-d040-4ce5-9b68-f1b365682d4f/882dd2d8-3941-4c8a-8503-e0fde4fea083/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "Q2") (unit 1)
+        )
+        (path "/0f8c6740-d040-4ce5-9b68-f1b365682d4f/882dd2d8-3941-4c8a-8503-e0fde4fea083/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "Q2") (unit 1)
+        )
+      )
+      (project "SmartCaravan"
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/4b192ea4-b50c-4f29-914a-cb19b995dc6c"
+          (reference "Q2") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/67648d4e-4082-43b9-a0d1-7155e8bb1efd"
+          (reference "Q3") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/ba1df6c2-c1e6-44ae-8b3d-dd996450ce77"
+          (reference "Q4") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/b4baabbf-1ea4-440a-9d55-ec64ff5e04c5"
+          (reference "Q5") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/7c63ae45-86df-4e05-bfa9-a69699819595"
+          (reference "Q6") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/e935d23e-356e-4ed7-923e-4ff3e9d1207b"
+          (reference "Q7") (unit 1)
+        )
+      )
+      (project "GSM_GPRS_MODULE_SIM7000G"
+        (path "/7b5c61bb-3beb-4d85-afc0-546a503e9b5f/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "Q2") (unit 1)
+        )
+        (path "/7b5c61bb-3beb-4d85-afc0-546a503e9b5f/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "Q2") (unit 1)
+        )
+      )
+      (project "GSM_module_v3"
+        (path "/8cb1db64-3fcc-4fb6-aa5a-7b4a50bb28df/341bfb02-419a-4358-97bd-e3e3f41a7556/05be99d3-7148-4ecf-8ad5-8c21ea4c2124"
+          (reference "Q9") (unit 1)
+        )
+      )
+      (project "BIM_PCB"
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/9c83602d-c851-4def-afb0-48963dca7404"
+          (reference "Q9") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/16769502-6cd7-4d90-ac70-b9f1d3d3fa47"
+          (reference "Q10") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/eba1f2a4-2c5d-4822-a4ed-1865479f0f6b"
+          (reference "Q11") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/57f051e4-1bb9-4052-b3bd-86c08fdbfa1f"
+          (reference "Q8") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/ad201ec8-e911-4cc6-b434-19a9fff4949b"
+          (reference "Q6") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/d71116eb-94f5-4d19-8fe2-1d5d56dfd59e"
+          (reference "Q7") (unit 1)
+        )
+      )
+      (project "BI_DIRECTIONAL_LOGIC_LEVEL_TRANSLATOR_MOSFET-use"
+        (path "/d5ed9ea7-1d20-4cba-b955-75adcb1b4a20"
+          (reference "Q2") (unit 1)
+        )
+      )
+      (project "ELIESTER_V2"
+        (path "/efe55700-0211-4481-aa01-7a7eb74def17/414f1577-4ce3-43d7-bbf4-7827eef840c4/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "Q10") (unit 1)
+        )
+        (path "/efe55700-0211-4481-aa01-7a7eb74def17/414f1577-4ce3-43d7-bbf4-7827eef840c4/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "Q9") (unit 1)
+        )
+      )
+    )
+  )
+)
