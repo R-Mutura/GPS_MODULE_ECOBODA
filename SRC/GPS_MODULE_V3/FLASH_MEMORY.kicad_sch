@@ -431,14 +431,14 @@
     (property "Datasheet" "http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf" (at 133.35 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d345fb5e-d54d-40b6-a065-a4362525a2f9))
-    (pin "2" (uuid 037e0f8b-6029-449b-8bec-a2fa4707340b))
-    (pin "3" (uuid 5165d2ed-31bd-45cd-b941-0879fdb16451))
-    (pin "4" (uuid 8ff55696-ea1e-4499-b0f3-e781a205deab))
-    (pin "5" (uuid bc98e3c2-65e2-42cd-b277-fa63b0bd1a1c))
-    (pin "6" (uuid b3b90b95-a333-457d-86d8-9a549daaee3c))
-    (pin "7" (uuid bf919953-d999-41a5-ad26-082215ff8ded))
-    (pin "8" (uuid 52230b89-efdb-48ae-89a9-9150f6136f94))
+    (pin "1" (uuid b3d22508-2ad5-46a7-8c05-9a84a0eae23a))
+    (pin "2" (uuid 31f0e301-e2fb-4f3f-995e-9b3e04662ef7))
+    (pin "3" (uuid 242d3434-72c7-46e3-88e9-de1cdeeb1f6f))
+    (pin "4" (uuid 7d5c12d5-9a1e-49d0-9d26-44c843c1164a))
+    (pin "5" (uuid 33027663-34c7-42f7-8dd3-a81a9d574dee))
+    (pin "6" (uuid c0f108d3-af1d-442a-8299-76e5f82313d1))
+    (pin "7" (uuid a76c4b54-6387-44da-8d66-def5d37bb965))
+    (pin "8" (uuid 007193e3-fb71-4c2c-8da0-a7c83666bc6e))
     (instances
       (project "GSM_module_v3"
         (path "/8cb1db64-3fcc-4fb6-aa5a-7b4a50bb28df/14b1c62f-11e9-40bc-ba7f-cc409931b155"
