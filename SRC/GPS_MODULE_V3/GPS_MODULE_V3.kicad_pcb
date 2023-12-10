@@ -4387,6 +4387,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "C:/Users/user/Documents/kicad6/KICAD 6.0.0/K6_ ON COMP REPOSITORY/MACHADA-kicad-library/MACHADA_3D_MODELS/2x02_p4.2conn_39-30-1040.stp"
+      (offset (xyz 2 14 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 180))
+    )
   )
 
   (footprint "Connector_Molex:Molex_Mini-Fit_Jr_5569-06A2_2x03_P4.20mm_Horizontal" (layer "F.Cu")
@@ -4485,6 +4490,11 @@
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model "C:/Users/user/Documents/kicad6/KICAD 6.0.0/K6_ ON COMP REPOSITORY/MACHADA-kicad-library/MACHADA_3D_MODELS/02x03_P4.2_0039301060.stp"
+      (offset (xyz 4.25 13.7 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 180))
     )
   )
 
