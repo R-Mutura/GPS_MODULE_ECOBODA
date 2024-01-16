@@ -977,7 +977,7 @@
   (symbol (lib_id "power:+3V3") (at 69.85 48.895 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 07fc481a-8dc7-4ca6-b268-ddb33951a326)
-    (property "Reference" "#PWR04" (at 69.85 52.705 0)
+    (property "Reference" "#PWR044" (at 69.85 52.705 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 69.85 43.815 0)
@@ -992,9 +992,6 @@
     (pin "1" (uuid fde3e1df-f7a1-4580-a513-1e1a8deadacf))
     (instances
       (project "GPS_MODULE_V3.kicad_pro"
-        (path "/8cb1db64-3fcc-4fb6-aa5a-7b4a50bb28df"
-          (reference "#PWR04") (unit 1)
-        )
         (path "/8cb1db64-3fcc-4fb6-aa5a-7b4a50bb28df/10f6c1c7-c1fc-4fab-93e4-de442e304026"
           (reference "#PWR044") (unit 1)
         )
@@ -1371,7 +1368,7 @@
   (symbol (lib_id "power:+3V3") (at 59.69 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 87658e23-92bb-4d61-99c1-3942374d801e)
-    (property "Reference" "#PWR04" (at 59.69 85.09 0)
+    (property "Reference" "#PWR046" (at 59.69 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 59.69 76.2 0)
@@ -1386,9 +1383,6 @@
     (pin "1" (uuid 46be0c1a-5765-454c-acb3-6a24e3ba6188))
     (instances
       (project "GPS_MODULE_V3.kicad_pro"
-        (path "/8cb1db64-3fcc-4fb6-aa5a-7b4a50bb28df"
-          (reference "#PWR04") (unit 1)
-        )
         (path "/8cb1db64-3fcc-4fb6-aa5a-7b4a50bb28df/10f6c1c7-c1fc-4fab-93e4-de442e304026"
           (reference "#PWR046") (unit 1)
         )
@@ -1399,7 +1393,7 @@
   (symbol (lib_id "power:+3V3") (at 107.315 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8b16d54a-90ff-4a94-bbbf-3c74973af8d1)
-    (property "Reference" "#PWR04" (at 107.315 80.01 0)
+    (property "Reference" "#PWR042" (at 107.315 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 107.315 71.12 0)
@@ -1414,9 +1408,6 @@
     (pin "1" (uuid b25834e4-447c-41bb-a531-6bd0ddbdf5ff))
     (instances
       (project "GPS_MODULE_V3.kicad_pro"
-        (path "/8cb1db64-3fcc-4fb6-aa5a-7b4a50bb28df"
-          (reference "#PWR04") (unit 1)
-        )
         (path "/8cb1db64-3fcc-4fb6-aa5a-7b4a50bb28df/10f6c1c7-c1fc-4fab-93e4-de442e304026"
           (reference "#PWR042") (unit 1)
         )

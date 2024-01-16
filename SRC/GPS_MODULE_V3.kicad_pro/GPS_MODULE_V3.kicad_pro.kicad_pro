@@ -509,16 +509,16 @@
       "STM32F103C8T6_MCU"
     ],
     [
-      "341bfb02-419a-4358-97bd-e3e3f41a7556",
-      "SIM7000E_GPRS_SIM MODULE"
+      "bf84f6a6-afcd-4d16-b49e-82022456ea82",
+      "A9G_GSM_GPRS_MODULE"
     ],
     [
       "10f6c1c7-c1fc-4fab-93e4-de442e304026",
       "RS485_MAX485"
     ],
     [
-      "05be99d3-7148-4ecf-8ad5-8c21ea4c2124",
-      "MOSFET_LOGIC_LEVEL_TRANSLATOR"
+      "e4c474fa-b78e-4e69-8a10-750455b88e98",
+      "MOSFET_LOGIC_LEVEL_TRANSLATOR9"
     ],
     [
       "f0ab97de-ae3d-4f75-8ce2-64a4f1fc1ed5",
@@ -527,6 +527,22 @@
     [
       "14b1c62f-11e9-40bc-ba7f-cc409931b155",
       "FLASH_MEMORY"
+    ],
+    [
+      "9af48e8e-497e-49d4-800c-d02a4a3413ff",
+      "MOSFET_LOGIC_LEVEL_TRANSLATOR6"
+    ],
+    [
+      "6157cf37-b79c-4841-a74d-e2ebe383ec15",
+      "TF_CARD_CONN"
+    ],
+    [
+      "6f7505d4-6bef-405c-a8b0-f60f4ef1ff15",
+      "MOSFET_LOGIC_LEVEL_TRANSLATOR7"
+    ],
+    [
+      "3afb6843-ee45-474d-abc0-9babe8038f58",
+      "MOSFET_LOGIC_LEVEL_TRANSLATOR8"
     ]
   ],
   "text_variables": {}
