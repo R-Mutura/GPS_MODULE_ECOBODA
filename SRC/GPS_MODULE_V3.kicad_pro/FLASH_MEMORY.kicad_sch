@@ -279,8 +279,8 @@
     (uuid a29d0c9c-2843-4ee6-9178-b2f540e78ed0)
   )
 
-  (hierarchical_label "SCK" (shape input) (at 118.11 96.52 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
+  (hierarchical_label "SCK" (shape input) (at 118.11 96.52 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
     (uuid 2a8218cb-e2ac-40ec-8b5e-4d63e0025cfc)
   )
   (hierarchical_label "MISO" (shape bidirectional) (at 118.11 101.6 180) (fields_autoplaced)

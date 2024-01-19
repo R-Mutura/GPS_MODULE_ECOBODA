@@ -1363,9 +1363,6 @@
   (junction (at 69.85 88.9) (diameter 0) (color 0 0 0 0)
     (uuid 07919160-2a0c-493a-8df5-d92091a02249)
   )
-  (junction (at 260.985 76.2) (diameter 0) (color 0 0 0 0)
-    (uuid 0cee8883-6e52-4815-86ad-af6c0b63bb9a)
-  )
   (junction (at 172.085 170.18) (diameter 0) (color 0 0 0 0)
     (uuid 12d16250-26ce-456a-902f-fd3ef119602a)
   )
@@ -1461,9 +1458,6 @@
   )
   (junction (at 164.465 170.18) (diameter 0) (color 0 0 0 0)
     (uuid de974dc4-8c73-4b04-866b-e580bfaa982f)
-  )
-  (junction (at 253.365 73.66) (diameter 0) (color 0 0 0 0)
-    (uuid e6bd80dd-1a34-4611-9555-92a8ebd51c7c)
   )
   (junction (at 77.47 101.6) (diameter 0) (color 0 0 0 0)
     (uuid ea0935f1-a0e0-461e-a507-619fae4dfcc5)
@@ -1974,10 +1968,6 @@
     (stroke (width 0) (type default))
     (uuid 8ac6a015-dbef-4454-b97a-461f98cc6e25)
   )
-  (wire (pts (xy 266.065 72.39) (xy 266.065 73.66))
-    (stroke (width 0) (type default))
-    (uuid 8b4f0f40-32cb-455f-a00d-4f74cca46884)
-  )
   (wire (pts (xy 221.615 119.38) (xy 221.615 116.84))
     (stroke (width 0) (type default))
     (uuid 8c42fd3a-d05b-4fc3-ba27-912560ccdf79)
@@ -2062,10 +2052,6 @@
     (stroke (width 0) (type default))
     (uuid 9f122693-0a0f-44ac-8322-d2bc70cfd689)
   )
-  (wire (pts (xy 266.065 78.105) (xy 266.065 76.2))
-    (stroke (width 0) (type default))
-    (uuid a2040a69-7486-4a18-9401-ec5e9bea721e)
-  )
   (polyline (pts (xy 252.095 138.43) (xy 282.575 138.43))
     (stroke (width 0) (type default))
     (uuid a5b97e01-8d6d-4d46-a3b3-7f33bedd3c3d)
@@ -2118,10 +2104,6 @@
   (wire (pts (xy 23.495 186.69) (xy 38.735 186.69))
     (stroke (width 0) (type default))
     (uuid b0a56c2e-e2d4-4492-9aeb-c1697ea0b8de)
-  )
-  (wire (pts (xy 253.365 73.66) (xy 266.065 73.66))
-    (stroke (width 0) (type default))
-    (uuid b15c2e9d-baa7-474d-939d-b135237cfb65)
   )
   (wire (pts (xy 187.325 68.58) (xy 248.285 68.58))
     (stroke (width 0) (type default))
@@ -2282,10 +2264,6 @@
   (wire (pts (xy 187.325 29.21) (xy 187.325 32.385))
     (stroke (width 0) (type default))
     (uuid d8c151f1-e0cd-44e8-b287-7b537b43a89e)
-  )
-  (wire (pts (xy 260.985 76.2) (xy 266.065 76.2))
-    (stroke (width 0) (type default))
-    (uuid d90ab0de-5664-4f61-88c2-4fb93014b115)
   )
   (wire (pts (xy 247.015 106.68) (xy 250.825 106.68))
     (stroke (width 0) (type default))
@@ -3154,51 +3132,6 @@
       (project "ELIESTER_V2"
         (path "/efe55700-0211-4481-aa01-7a7eb74def17/414f1577-4ce3-43d7-bbf4-7827eef840c4"
           (reference "#PWR0137") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:TestPoint") (at 266.065 72.39 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 2983a61a-afe8-4c44-9e74-06c87214ab19)
-    (property "Reference" "SIM_I2C_SCL1" (at 271.78 71.12 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "SIM_I2C_SCL" (at 271.78 73.66 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "brilliant-kicad-library:TestPoint_Pad_D0.9mm" (at 266.065 77.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 266.065 77.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c319990c-fbc0-49f5-96aa-191c6caea06e))
-    (instances
-      (project "SIM7000G_GPS_GPRS_MODULE"
-        (path "/682fa917-2f52-4469-aa75-8536293ede48"
-          (reference "SIM_I2C_SCL1") (unit 1)
-        )
-      )
-      (project "GPS_MODULE_V3.kicad_pro"
-        (path "/8cb1db64-3fcc-4fb6-aa5a-7b4a50bb28df/bf84f6a6-afcd-4d16-b49e-82022456ea82"
-          (reference "SIM_I2C_SCL1") (unit 1)
-        )
-      )
-      (project "Weather_Station_Project"
-        (path "/aaf5c359-cd8c-4cad-b3ec-83c1a2a58ae1/ca140549-f0a4-476c-ad7f-ae707a64a42e"
-          (reference "SIM_I2C_SCL1") (unit 1)
-        )
-      )
-      (project "BIM_PCB"
-        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd"
-          (reference "SIM_I2C_SCL1") (unit 1)
-        )
-      )
-      (project "ELIESTER_V2"
-        (path "/efe55700-0211-4481-aa01-7a7eb74def17/414f1577-4ce3-43d7-bbf4-7827eef840c4"
-          (reference "SIM_I2C_SCL1") (unit 1)
         )
       )
     )
@@ -4167,51 +4100,6 @@
       (project "ELIESTER_V2"
         (path "/efe55700-0211-4481-aa01-7a7eb74def17/414f1577-4ce3-43d7-bbf4-7827eef840c4"
           (reference "R73") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:TestPoint") (at 266.065 78.105 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 6376ec32-d26e-4f57-a4a6-51106ee6f160)
-    (property "Reference" "SIM_I2C_SDA1" (at 271.78 76.835 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "SIM_I2C_SDA" (at 271.78 79.375 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "brilliant-kicad-library:TestPoint_Pad_D0.9mm" (at 266.065 83.185 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 266.065 83.185 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3ceca1c8-7830-4b16-8d71-cb13b12dbd92))
-    (instances
-      (project "SIM7000G_GPS_GPRS_MODULE"
-        (path "/682fa917-2f52-4469-aa75-8536293ede48"
-          (reference "SIM_I2C_SDA1") (unit 1)
-        )
-      )
-      (project "GPS_MODULE_V3.kicad_pro"
-        (path "/8cb1db64-3fcc-4fb6-aa5a-7b4a50bb28df/bf84f6a6-afcd-4d16-b49e-82022456ea82"
-          (reference "SIM_I2C_SDA1") (unit 1)
-        )
-      )
-      (project "Weather_Station_Project"
-        (path "/aaf5c359-cd8c-4cad-b3ec-83c1a2a58ae1/ca140549-f0a4-476c-ad7f-ae707a64a42e"
-          (reference "SIM_I2C_SDA1") (unit 1)
-        )
-      )
-      (project "BIM_PCB"
-        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd"
-          (reference "SIM_I2C_SDA1") (unit 1)
-        )
-      )
-      (project "ELIESTER_V2"
-        (path "/efe55700-0211-4481-aa01-7a7eb74def17/414f1577-4ce3-43d7-bbf4-7827eef840c4"
-          (reference "SIM_I2C_SDA1") (unit 1)
         )
       )
     )
