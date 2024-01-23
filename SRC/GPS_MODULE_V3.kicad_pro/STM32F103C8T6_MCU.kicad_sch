@@ -2692,35 +2692,6 @@
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole") (at 135.255 178.435 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid ce0db147-8b47-486c-aa6c-80e4ef21179b)
-    (property "Reference" "H2" (at 138.43 177.8 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 138.43 180.34 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_2.7mm" (at 135.255 178.435 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 135.255 178.435 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "GPS_MODULE_V3.kicad_pro"
-        (path "/8cb1db64-3fcc-4fb6-aa5a-7b4a50bb28df/8c15b503-edc1-48ce-9a71-ab9546bdf0c8"
-          (reference "H2") (unit 1)
-        )
-      )
-      (project "BIM_PCB"
-        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/f23c600c-7725-4edd-91d3-0267a41a1c43"
-          (reference "H2") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R_US") (at 86.36 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cfe5d908-7871-4c6e-be98-e9dd6012768c)
