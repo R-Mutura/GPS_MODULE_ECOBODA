@@ -55,18 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "copper_edge_clearance|223362500|70400000|261a8c4d-646d-4e37-addc-b4c085c21547|784ca340-cae8-4909-af62-ac69b1d0cb3c",
-        "copper_edge_clearance|223362500|70400000|261a8c4d-646d-4e37-addc-b4c085c21547|9d8b85d5-0425-4551-9fa6-a043d54bc08b",
-        "copper_edge_clearance|223362500|76050000|261a8c4d-646d-4e37-addc-b4c085c21547|16da85c0-85ce-48fe-bcd9-03a826b9e7c4",
-        "copper_edge_clearance|223362500|76050000|261a8c4d-646d-4e37-addc-b4c085c21547|669ec01d-fe8b-4fb8-8683-6d555285702d",
-        "copper_edge_clearance|223462500|73265000|261a8c4d-646d-4e37-addc-b4c085c21547|1567f5f9-a332-4a78-870e-bdf83b07ec11",
-        "silk_over_copper|225950000|80350000|681bb897-16f6-4ec2-86fa-4553abfc5249|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|225960000|93345822|76c660b7-62e1-40f7-adc1-b9258a6a2bac|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|233850000|93370000|470eb483-e669-483e-b72a-7def5db952db|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|234750000|80370000|1e088d48-06a0-4d91-b0de-560e6921b143|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|234760000|93370000|fc82e388-c199-4fb5-b4c2-558b6e9eb59f|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -467,7 +456,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "../../STEP/GPS_MODULE_V3.kicad_pro.step",
+      "step": "../../STEP_FILES/GPS_MODULE_V3.kicad_pro.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

@@ -56,6 +56,153 @@
         )
       )
     )
+    (symbol "Device:L_Ferrite" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "L" (at -1.27 0 90)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "L_Ferrite" (at 2.794 0 90)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "inductor choke coil reactor magnetic" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Inductor with ferrite core" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "L_Ferrite_0_1"
+        (arc (start 0 -2.54) (mid 0.6323 -1.905) (end 0 -1.27)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (arc (start 0 -1.27) (mid 0.6323 -0.635) (end 0 0)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.016 -2.794)
+            (xy 1.016 -2.286)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.016 -1.778)
+            (xy 1.016 -1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.016 -0.762)
+            (xy 1.016 -0.254)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.016 0.254)
+            (xy 1.016 0.762)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.016 1.27)
+            (xy 1.016 1.778)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.016 2.286)
+            (xy 1.016 2.794)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.524 -2.286)
+            (xy 1.524 -2.794)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.524 -1.27)
+            (xy 1.524 -1.778)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.524 -0.254)
+            (xy 1.524 -0.762)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.524 0.762)
+            (xy 1.524 0.254)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.524 1.778)
+            (xy 1.524 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.524 2.794)
+            (xy 1.524 2.286)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (arc (start 0 0) (mid 0.6323 0.635) (end 0 1.27)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (arc (start 0 1.27) (mid 0.6323 1.905) (end 0 2.54)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "L_Ferrite_1_1"
+        (pin passive line (at 0 3.81 270) (length 1.27)
+          (name "1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -3.81 90) (length 1.27)
+          (name "2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Device:R_US" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 2.54 0 90)
         (effects (font (size 1.27 1.27)))
@@ -999,47 +1146,6 @@
     )
   )
 
-  (symbol (lib_id "Device:R_US") (at 163.195 87.63 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 0c6959cd-4fad-415c-8c3f-ad8f94bfa6ec)
-    (property "Reference" "R28" (at 163.195 82.55 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "0R" (at 163.195 85.09 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 163.449 86.614 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 163.195 87.63 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c0e05661-716d-4055-8e48-5bac4f65b4d6))
-    (pin "2" (uuid fc2a4c5e-2047-40bc-86b8-040d09864d09))
-    (instances
-      (project "GPS_MODULE_V3.kicad_pro"
-        (path "/8cb1db64-3fcc-4fb6-aa5a-7b4a50bb28df/10f6c1c7-c1fc-4fab-93e4-de442e304026"
-          (reference "R28") (unit 1)
-        )
-      )
-      (project "BIM_PCB"
-        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/1465f310-1de3-424a-8f4a-a980ed628081"
-          (reference "R37") (unit 1)
-        )
-      )
-      (project "MAX485"
-        (path "/bc82bdd3-8c90-4895-abd4-de755b621eab"
-          (reference "R42") (unit 1)
-        )
-      )
-      (project "ELIESTER_V2"
-        (path "/efe55700-0211-4481-aa01-7a7eb74def17/d62e2e8a-503b-4c7c-a2bb-b074e6b71fb0"
-          (reference "R42") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 59.69 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0deb1d51-943d-4aea-8a6e-86e09906768b)
@@ -1324,6 +1430,32 @@
     )
   )
 
+  (symbol (lib_id "Device:L_Ferrite") (at 163.195 87.63 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 7a85fe7b-4194-4742-949b-f495cfbdecd0)
+    (property "Reference" "L5" (at 163.195 80.8774 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "L_Ferrite" (at 163.195 83.4174 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Inductor_SMD:L_0402_1005Metric" (at 163.195 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 163.195 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 970a18f7-3c4c-4807-9118-6af77d67aca3))
+    (pin "2" (uuid 82cf2cf8-8853-49e1-a9fb-514280c8f176))
+    (instances
+      (project "GPS_MODULE_V3.kicad_pro"
+        (path "/8cb1db64-3fcc-4fb6-aa5a-7b4a50bb28df/10f6c1c7-c1fc-4fab-93e4-de442e304026"
+          (reference "L5") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Diode:SD05_SOD323") (at 180.34 110.49 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 80977cd8-67df-4f26-a318-66ea42805791)
@@ -1415,47 +1547,6 @@
     )
   )
 
-  (symbol (lib_id "Device:R_US") (at 163.195 102.87 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 8bb3a89a-ffec-44d6-9b66-05b0efe94333)
-    (property "Reference" "R32" (at 163.195 97.79 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "0R" (at 163.195 100.33 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 163.449 101.854 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 163.195 102.87 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3b168751-6e66-4819-a9dc-f87b23c55ea0))
-    (pin "2" (uuid a0cd153f-8c6f-4f5a-aee9-3422de996374))
-    (instances
-      (project "GPS_MODULE_V3.kicad_pro"
-        (path "/8cb1db64-3fcc-4fb6-aa5a-7b4a50bb28df/10f6c1c7-c1fc-4fab-93e4-de442e304026"
-          (reference "R32") (unit 1)
-        )
-      )
-      (project "BIM_PCB"
-        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/1465f310-1de3-424a-8f4a-a980ed628081"
-          (reference "R37") (unit 1)
-        )
-      )
-      (project "MAX485"
-        (path "/bc82bdd3-8c90-4895-abd4-de755b621eab"
-          (reference "R42") (unit 1)
-        )
-      )
-      (project "ELIESTER_V2"
-        (path "/efe55700-0211-4481-aa01-7a7eb74def17/d62e2e8a-503b-4c7c-a2bb-b074e6b71fb0"
-          (reference "R42") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 107.315 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9b0d8cdc-89be-447c-8c6d-4b5994b51296)
@@ -1531,6 +1622,32 @@
       (project "ELIESTER_V2"
         (path "/efe55700-0211-4481-aa01-7a7eb74def17/d62e2e8a-503b-4c7c-a2bb-b074e6b71fb0"
           (reference "#PWR092") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:L_Ferrite") (at 163.195 102.87 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b98adabe-9a14-4aea-bf75-b86c80461812)
+    (property "Reference" "L6" (at 163.195 96.1174 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "L_Ferrite" (at 163.195 98.6574 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Inductor_SMD:L_0402_1005Metric" (at 163.195 102.87 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 163.195 102.87 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 863c8fcb-796b-423c-ba12-13707a2738bc))
+    (pin "2" (uuid 3e13364a-f437-49eb-9f6a-b6a51cd75a99))
+    (instances
+      (project "GPS_MODULE_V3.kicad_pro"
+        (path "/8cb1db64-3fcc-4fb6-aa5a-7b4a50bb28df/10f6c1c7-c1fc-4fab-93e4-de442e304026"
+          (reference "L6") (unit 1)
         )
       )
     )
@@ -1639,9 +1756,9 @@
     (property "Datasheet" "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" (at 156.21 109.855 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid feaaf535-fe50-4364-836b-a5669f6edcb3))
-    (pin "1" (uuid e42221d5-5673-4133-89ad-44bba47df2cc))
-    (pin "2" (uuid 9223c47b-fe5b-41ed-9433-2dd5f3e793ab))
+    (pin "3" (uuid 713faa24-887d-4235-a22c-20fbc03760a9))
+    (pin "1" (uuid b924af61-4a70-46a5-a750-db9eaf017ec0))
+    (pin "2" (uuid 4d6c72f9-3aa2-4fe1-a335-c15638974b9a))
     (instances
       (project "GPS_MODULE_V3.kicad_pro"
         (path "/8cb1db64-3fcc-4fb6-aa5a-7b4a50bb28df/10f6c1c7-c1fc-4fab-93e4-de442e304026"
